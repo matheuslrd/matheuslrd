@@ -9,12 +9,32 @@ body {
     color: #E7E7E7;
 }
 
+
+.conteiner-principal {
+    width: 500px;
+    border: 2px solid #D00000;
+    padding: 20px;
+}
+
+
 #inicio {
     background-color: #D00000;
+    padding: 10px;
+    text-align: center;
 }
 
 .conteiner-name{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.conteiner-description {
+    width: 55%;
+    margin-left: 15px;
+}
+
+.display-inline {
+    display: inline-block;
 }
 
 .descricao-perfil {
