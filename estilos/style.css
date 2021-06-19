@@ -14,6 +14,7 @@ body {
     width: 500px;
     border: 2px solid #D00000;
     padding: 20px;
+    margin: 0px auto;
 }
 
 
@@ -29,10 +30,16 @@ body {
     text-align: center;
 }
 
+.conteiner-photo img {
+    border-radius: 5px;
+}
+
 .conteiner-description {
-    width: 55.5%;
+    width: 50%;
     margin-left: 15px;
     letter-spacing: .5px;
+    position: absolute;
+    top: 220px;
 }
 
 .display-inline {
@@ -60,10 +67,21 @@ body {
     margin-bottom: 5px;
 }
 
+.conteiner-links {
+    padding: 10px 0px;
+    margin: 10px 0px;
+    line-height: 1.5em;
+}
+
 a {
     text-decoration: none;
     color: #3F88C5;
     font-weight: bold;
+}
+
+a:hover {
+    color: #89b7dc;
+    transition: .2s all ease-out;
 }
 
 ol {
