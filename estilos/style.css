@@ -26,11 +26,13 @@ body {
 .conteiner-name{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
+    text-align: center;
 }
 
 .conteiner-description {
-    width: 55%;
+    width: 55.5%;
     margin-left: 15px;
+    letter-spacing: .5px;
 }
 
 .display-inline {
@@ -39,6 +41,23 @@ body {
 
 .descricao-perfil {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.conteiner-habilidades {
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.conteiner-link-youtube {
+    padding: 10px 0px;
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.conteiner-link-youtube p {
+    margin-bottom: 5px;
 }
 
 a {
