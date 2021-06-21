@@ -32,6 +32,7 @@ body {
 
 .conteiner-photo img {
     border-radius: 5px;
+    box-shadow: 5px 5px 8px black;
 }
 
 .conteiner-description {
@@ -73,6 +74,19 @@ body {
     line-height: 1.5em;
 }
 
+.conteiner-redes-sociais {
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.conteiner-redes-sociais h3 {
+    margin-bottom: 15px;
+}
+
+.conteiner-redes-sociais img {
+}
+
 a {
     text-decoration: none;
     color: #3F88C5;
@@ -86,8 +100,4 @@ a:hover {
 
 ol {
     list-style-type: none;
-}
-
-img {
-    box-shadow: 5px 5px 8px black;
 }
