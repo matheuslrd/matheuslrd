@@ -8,7 +8,6 @@
 }
 
 body {
-  background: rgb(85, 85, 85);
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
   color: rgb(231, 231, 231);
@@ -32,30 +31,115 @@ body {
   align-items: center;
 }
 
-.nav-list .nav-item a:link, a:visited, a:active{
-  color: rgb(231, 231, 231);
+.nav-item:nth-child(n) {
+  display: none;
+}
 
+.nav-item:nth-child(3) {
+  display: block;
+  margin: -5px 0 0;
 }
 
 .nav-list .logo a{
   font-family: 'Yellowtail', cursive;
   color: rgb(218, 165, 32);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* SESSÃO HERO */
 
 .hero {
   width: 100%;
+  height: 100vh;
   background: url("../imagens/pexels-paisagem.jpg") right bottom no-repeat;
   background-size: cover;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-/* 
-.hero .welcome {
-  border: 1px solid red;
 
-} */
+.hero .welcome {
+  width: 90%;
+  text-align: center;
+}
+
+.hero .welcome h1 {
+  font-size: 4.3em;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.705);
+}
+
+.hero .welcome p {
+  font-style: italic;
+  color: rgb(231, 231, 231);
+  font-size: 1.1em;
+  margin-top: 30px;
+}
+
+.hero .direction {
+  width: 90%;
+  padding: 0 20px;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.705);
+}
+
+/* SETA ANIMADA */
+
+.arrowed {
+  margin-bottom: -125px;
+}
+/* -- ARROW 6      -- */
+
+.arrow-6 {
+	/* more triangle */
+	height: 10px; width: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	border-width: 3px 3px 0 0;
+	transform: rotate(135deg);
+}
+
+.arrow-6:before, .arrow-6:after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 10px; width: 10px;
+	border-width: 3px 3px 0 0;
+}
+
+.arrow-6:before {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-width: 3px 3px 0 0;
+	/* top - distance minus border */
+	top: 7px; left: -10px;
+}
+
+.arrow-6:after {
+	border: 1px solid rgba(255, 255, 255, 1);
+	border-width: 3px 3px 0 0;
+	/* top - distance plus border */
+	top: -10px; left: 10px;
+}
+
+/* JOBS - TRABALHOS E PROJETOS */
+
+#container-jobs {
+  width: 100%; height: 100vh;
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.jobs {
+  
+}
+
+.pixel-art, .to-do-list, .generic {
+  width: 40%;
+  height: 150px;
+  background: rosybrown;
+}
 
 /* FORMATAÇÕES GERAIS */
 a {
