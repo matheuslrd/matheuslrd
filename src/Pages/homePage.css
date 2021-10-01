@@ -1,0 +1,13 @@
+.Home-Page {
+  height: 100vh;
+  width: 100%;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Nav-Bar {
+  background: blue;
+}
