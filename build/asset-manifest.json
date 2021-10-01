@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/matheuslrd/static/css/main.4ecdf7b4.chunk.css",
+    "main.js": "/matheuslrd/static/js/main.f7497cf1.chunk.js",
+    "main.js.map": "/matheuslrd/static/js/main.f7497cf1.chunk.js.map",
+    "runtime-main.js": "/matheuslrd/static/js/runtime-main.1e95d275.js",
+    "runtime-main.js.map": "/matheuslrd/static/js/runtime-main.1e95d275.js.map",
+    "static/js/2.6048da16.chunk.js": "/matheuslrd/static/js/2.6048da16.chunk.js",
+    "static/js/2.6048da16.chunk.js.map": "/matheuslrd/static/js/2.6048da16.chunk.js.map",
+    "static/js/3.09402c21.chunk.js": "/matheuslrd/static/js/3.09402c21.chunk.js",
+    "static/js/3.09402c21.chunk.js.map": "/matheuslrd/static/js/3.09402c21.chunk.js.map",
+    "index.html": "/matheuslrd/index.html",
+    "static/css/main.4ecdf7b4.chunk.css.map": "/matheuslrd/static/css/main.4ecdf7b4.chunk.css.map",
+    "static/js/2.6048da16.chunk.js.LICENSE.txt": "/matheuslrd/static/js/2.6048da16.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e95d275.js",
+    "static/js/2.6048da16.chunk.js",
+    "static/css/main.4ecdf7b4.chunk.css",
+    "static/js/main.f7497cf1.chunk.js"
+  ]
+}
