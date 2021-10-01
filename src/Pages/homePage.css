@@ -23,6 +23,12 @@
 }
 
 .Nav-Bar ul a {
-  color: #d6d6d6;
+  font-weight: 500;
+  color: #fdfdfd;
   text-decoration: none;
+  transition: all 0.1s ease-out;
+}
+
+.Nav-Bar ul a:hover {
+  color: #5d2de2;
 }

@@ -6,16 +6,16 @@ class NavBar extends Component {
       <nav className="Nav-Bar">
         <ul>
           <li>
-            <a href="#About-Me"> About Me </a>
+            <a href="#About-Me"> Sobre Mim </a>
           </li>
           <li>
-            <a href="#Projects"> Projects </a>
+            <a href="#Projects"> Projetos </a>
           </li>
           <li>
-            <a href="#Services"> Services </a>
+            <a href="#Services"> Serviços </a>
           </li>
           <li>
-            <a href="#Skills"> Skills </a>
+            <a href="#Skills"> Habilidades </a>
           </li>
         </ul>
       </nav>
