@@ -8,6 +8,7 @@ class HomePage extends Component {
       <section className="Home-Page">
         <Header />
         homePage
+        
       </section>
     );
   }

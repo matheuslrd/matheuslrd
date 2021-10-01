@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './aboutMe.css';
 
 class AboutMe extends Component {
   render() {
     return (
-      <div id="About-Me">
+      <section id="About-Me">
         <p>AboutMe</p>
-      </div>
+      </section>
     );
   }
 }

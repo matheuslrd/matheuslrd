@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './services.css';
 
 class Services extends Component {
   render() {
     return (
-      <div>
+      <section id="Services">
         <p>Services</p>
-      </div>
+      </section>
     );
   }
 }

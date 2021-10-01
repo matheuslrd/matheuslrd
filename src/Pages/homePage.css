@@ -4,10 +4,25 @@
 }
 
 .Header {
+  background: #202024;
   display: flex;
   justify-content: space-around;
+  padding: 1.5em;
+  width: 100%;
 }
 
 .Nav-Bar {
-  background: blue;
+  width: 39%;
+}
+
+.Nav-Bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Nav-Bar ul a {
+  color: #d6d6d6;
+  text-decoration: none;
 }
