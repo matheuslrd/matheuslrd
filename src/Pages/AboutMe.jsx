@@ -19,11 +19,13 @@ class AboutMe extends Component {
           />
           <div className="Icons"><FaCss3Alt size="4em" /> <FaReact size="4em" /> </div>
         </section>
+
         <article className="About-Me-Container">
           <div className="About-Me-Center">
             <section className="Abstract-About-Me">
               <AbstractAboutMe />
             </section>
+
             <section className="Buttons-About-Me">
               <button type="button" className="About-Me-Btn-LinkedIn Btn-Contact">
                 <FaLinkedin size="1.4em" />
