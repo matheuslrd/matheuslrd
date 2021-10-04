@@ -7,7 +7,7 @@ class ButtonsContact extends Component {
       <>
         <button type="button" className="Btn-Contact Btn-Whatsapp">
           <FaWhatsapp size="1.4em" /> 
-          <span className="whats">whatsapp</span>
+          <span className="whats">WhatsApp</span>
         </button>
         <button type="button" className="Btn-Contact Btn-LinkedIn">
           <FaLinkedin size="1.4em" /> 
