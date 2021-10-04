@@ -4,7 +4,7 @@ class AbstractAboutMe extends Component {
   render() {
     return(
       <>
-        <h2 className="Title-About-Me">Sobre Mim</h2> <br />
+        <h2 className="Title-About-Me">Quem Sou Eu?</h2> <br />
         <p>
           Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição.
           Lorem Ipsum tem sido o texto fictício padrão da indústria desde 1500, quando um impressor
