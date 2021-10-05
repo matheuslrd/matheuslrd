@@ -1,7 +1,7 @@
 {
   "name": "portfolio-matheus-laurindo",
   "version": "0.1.0",
-  "homepage": "https://matheuslrd.github.io/",
+  "homepage": "https://matheuslrd.github.io/portfolio",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
