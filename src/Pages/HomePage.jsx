@@ -8,7 +8,7 @@ import ButtonsContact from '../Components/ButtonsContact';
 class HomePage extends Component {
   render() {
     return (
-      <section className="Home-Page">
+      <section id="Home-Page">
         <Header />
         <main className="Main-Content">
           <section className="Contacte-Me-Container">
