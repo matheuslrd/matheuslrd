@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropsTypes from 'prop-types';
 
-class SkillCard extends Component {
-  render() {
-    const { skillIcon } = this.props;
-    return (
-      <div className="Skill-Card">
-        { skillIcon }
-      </div>
-    );
-  }
+function SkillCard({ skillIcon }) {
+  return (
+    <div className="Skill-Card">
+      { skillIcon }
+    </div>
+  );
 }
+
+SkillCard.propTypes = {
+  skillIcon: PropsTypes.string.isRequired,
+};
 
 export default SkillCard;
