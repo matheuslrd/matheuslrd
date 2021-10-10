@@ -5,8 +5,9 @@ function AbstractSkills() {
     <section className="Abstract-Skills">
       <h2 className="Skills-Title"> Habilidades </h2>
       <p className="Abstract-Skills-Text">
-        Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição.
-        Lorem Ipsum tem sido o texto fictício padrão da indústria desde 1500, quando um impressor
+        Tenho conhecimentos em HTML5, CSS3, JavaScript, testes unitários com Assert,
+        testes automatizados com Jest e React Testing Library para React.
+        Atualmente aprimoro meus conhecimentos em React e suas bibliotecas como Redux.
       </p>
     </section>
   );
