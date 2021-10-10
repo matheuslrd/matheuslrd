@@ -1,22 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropsTypes from 'prop-types';
 
-class ServiceCard extends Component {
-  render() {
-    const { iconService, titleService, textService } = this.props;
-    return (
-      <div className="Service">
-        <section className="Icon-Service">
-          { iconService }
-        </section>
-        <h3 className="Title-Service">
-          { titleService }
-        </h3>
-        <p className="Text-Service">
-          { textService }
-        </p>
-      </div>
-    );
-  }
+function ServiceCard({ iconService, titleService, textService }) {
+  return (
+    <div className="Service">
+      <section className="Icon-Service">
+        { iconService }
+      </section>
+      <h3 className="Title-Service">
+        { titleService }
+      </h3>
+      <p className="Text-Service">
+        { textService }
+      </p>
+    </div>
+  );
 }
+
+ServiceCard.propTypes = {
+  iconService: PropsTypes.string.isRequired,
+  titleService: PropsTypes.string.isRequired,
+  textService: PropsTypes.string.isRequired,
+};
 
 export default ServiceCard;

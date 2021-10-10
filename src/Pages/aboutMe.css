@@ -48,6 +48,7 @@
 
 .Abstract-About-Me p {
   font-weight: 400;
+  line-height: 1.5em;
 }
 
 .About-Me-Btn-LinkedIn {
@@ -60,5 +61,5 @@
 }
 
 .About-Me-Btn-LinkedIn:hover {
-  background: #754be7;
+  background: #351980;
 }

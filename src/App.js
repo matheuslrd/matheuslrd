@@ -9,13 +9,14 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <main className="App">
       <HomePage />
       <AboutMe />
       <Projects />
       <Services />
       <Skills />
-      <Footer  />
+      <Footer />
     </main>
   );
 }

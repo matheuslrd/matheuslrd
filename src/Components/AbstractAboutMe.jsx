@@ -1,24 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class AbstractAboutMe extends Component {
-  render() {
-    return(
-      <>
-        <h2 className="Title-About-Me">Quem Sou Eu?</h2> <br />
-        <p>
-          Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição.
-          Lorem Ipsum tem sido o texto fictício padrão da indústria desde 1500, quando um impressor
-          desconhecido pegou um modelo de impressão e embaralhou-o para fazer um livro de amostra de tipos.
-        </p>
+function AbstractAboutMe() {
+  return (
+    <>
+      <h2 className="Title-About-Me">Quem Sou Eu?</h2>
+      <br />
+      <p className="About-Me-Matheus">
+        Meu nome é Matheus Laurindo, tenho 20 anos e moro em Gravataí/RS.
         <br />
-        <p>
-          Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição.
-          Lorem Ipsum tem sido o texto fictício padrão da indústria desde 1500, quando um impressor
-          desconhecido pegou um modelo de impressão e embaralhou-o para fazer um livro de amostra de tipos.
-        </p>
-      </>
-    );
-  }
+        Gosto de ler, ver filmes e práticar exercicios fisicos.
+      </p>
+      <br />
+      <p>
+        Sou formado em
+        <b> Tecnologia Da Informação </b>
+        pela
+        <i> QI Escolas e Faculdades </i>
+        e atualmente estudo
+        <b> Desenvolvimento Web </b>
+        na
+        <i> Trybe. </i>
+      </p>
+    </>
+  );
 }
 
 export default AbstractAboutMe;
