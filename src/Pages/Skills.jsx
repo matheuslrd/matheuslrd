@@ -15,13 +15,13 @@ function Skills() {
         <AbstractSkills />
 
         <section className="Icons-Skills">
-          <SkillCard skillIcon={<FaHtml5 size="3.5em" />} />
-          <SkillCard skillIcon={<FaCss3Alt size="3.5em" />} />
-          <SkillCard skillIcon={<FaReact size="3.5em" />} />
-          <SkillCard skillIcon={<FaJs size="3.5em" />} />
-          <SkillCard skillIcon={<SiRedux size="3.5em" />} />
-          <SkillCard skillIcon={<SiJest size="3.5em" />} />
-          <SkillCard skillIcon={<SiVisualstudio size="3.5em" />} />
+          <SkillCard skillIcon={<FaHtml5 size="3.5em" />} textSkill="HTML5" />
+          <SkillCard skillIcon={<FaCss3Alt size="3.5em" />} textSkill="CSS3" />
+          <SkillCard skillIcon={<FaReact size="3.5em" />} textSkill="React" />
+          <SkillCard skillIcon={<FaJs size="3.5em" />} textSkill="JS" />
+          <SkillCard skillIcon={<SiRedux size="3.5em" />} textSkill="Redux" />
+          <SkillCard skillIcon={<SiJest size="3.5em" />} textSkill="Jest" />
+          <SkillCard skillIcon={<SiVisualstudio size="3.5em" />} textSkill="VSCode" />
         </section>
       </div>
 
