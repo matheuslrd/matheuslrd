@@ -32,10 +32,17 @@ function AboutMe() {
           </section>
 
           <section className="Buttons-About-Me">
-            <button type="button" className="About-Me-Btn-LinkedIn Btn-Contact">
-              <FaLinkedin size="1.4em" />
-              <span className="whats">LinkedIn</span>
-            </button>
+            <a
+              href="https://www.linkedin.com/in/matheus-szarblewski/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button type="button" className="About-Me-Btn-LinkedIn Btn-Contact">
+                <FaLinkedin size="1.4em" />
+                <span className="whats">LinkedIn</span>
+              </button>
+            </a>
+
           </section>
         </div>
       </article>
