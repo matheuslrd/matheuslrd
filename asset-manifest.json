@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/matheuslrd/static/css/main.0fc7c6e4.chunk.css",
-    "main.js": "/matheuslrd/static/js/main.b9d5310b.chunk.js",
-    "main.js.map": "/matheuslrd/static/js/main.b9d5310b.chunk.js.map",
-    "runtime-main.js": "/matheuslrd/static/js/runtime-main.67941ea0.js",
-    "runtime-main.js.map": "/matheuslrd/static/js/runtime-main.67941ea0.js.map",
+    "main.css": "/matheuslrd/static/css/main.62f6e2d4.chunk.css",
+    "main.js": "/matheuslrd/static/js/main.53595094.chunk.js",
+    "main.js.map": "/matheuslrd/static/js/main.53595094.chunk.js.map",
+    "runtime-main.js": "/matheuslrd/static/js/runtime-main.6cca9fb2.js",
+    "runtime-main.js.map": "/matheuslrd/static/js/runtime-main.6cca9fb2.js.map",
     "static/js/2.5888d8cf.chunk.js": "/matheuslrd/static/js/2.5888d8cf.chunk.js",
     "static/js/2.5888d8cf.chunk.js.map": "/matheuslrd/static/js/2.5888d8cf.chunk.js.map",
-    "static/js/3.bdfd6dc3.chunk.js": "/matheuslrd/static/js/3.bdfd6dc3.chunk.js",
-    "static/js/3.bdfd6dc3.chunk.js.map": "/matheuslrd/static/js/3.bdfd6dc3.chunk.js.map",
     "index.html": "/matheuslrd/index.html",
-    "static/css/main.0fc7c6e4.chunk.css.map": "/matheuslrd/static/css/main.0fc7c6e4.chunk.css.map",
+    "static/css/main.62f6e2d4.chunk.css.map": "/matheuslrd/static/css/main.62f6e2d4.chunk.css.map",
     "static/js/2.5888d8cf.chunk.js.LICENSE.txt": "/matheuslrd/static/js/2.5888d8cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.67941ea0.js",
+    "static/js/runtime-main.6cca9fb2.js",
     "static/js/2.5888d8cf.chunk.js",
-    "static/css/main.0fc7c6e4.chunk.css",
-    "static/js/main.b9d5310b.chunk.js"
+    "static/css/main.62f6e2d4.chunk.css",
+    "static/js/main.53595094.chunk.js"
   ]
 }
