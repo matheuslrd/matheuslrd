@@ -1,36 +1,26 @@
 import React from 'react';
 import ProjectCard from '../Components/ProjectCard';
 import './projects.css';
+import projects from '../data';
 
 function Projects() {
+  const renderProjects = () => (
+    projects.map(({
+      title, description, linkWebSite, linkGitHub,
+    }) => (
+      <ProjectCard
+        title={title}
+        description={description}
+        linkWebSite={linkWebSite}
+        linkGitHub={linkGitHub}
+      />
+    ))
+  );
   return (
     <section id="Projects">
       <h2 className="Title-Projects"> Projetos </h2>
       <div className="Projects-Container">
-        <ProjectCard
-          titleProject="Title Project"
-          abstractProject="Aqui estará escrito sobre o que é o projeto e qual sua finalidade."
-        />
-        <ProjectCard
-          titleProject="Title Project"
-          abstractProject="Aqui estará escrito sobre o que é o projeto e qual sua finalidade."
-        />
-        <ProjectCard
-          titleProject="Title Project"
-          abstractProject="Aqui estará escrito sobre o que é o projeto e qual sua finalidade."
-        />
-        <ProjectCard
-          titleProject="Title Project"
-          abstractProject="Aqui estará escrito sobre o que é o projeto e qual sua finalidade."
-        />
-        <ProjectCard
-          titleProject="Title Project"
-          abstractProject="Aqui estará escrito sobre o que é o projeto e qual sua finalidade."
-        />
-        <ProjectCard
-          titleProject="Title Project"
-          abstractProject="Aqui estará escrito sobre o que é o projeto e qual sua finalidade."
-        />
+        { renderProjects() }
       </div>
       <div className="Repositories-On-GitHub">
         <a

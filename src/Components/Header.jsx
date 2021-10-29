@@ -5,7 +5,9 @@ function Header() {
   return (
     <header className="Header">
       <div className="Logo-Matheus-Laurindo">
-        Logo
+        <h1 className="Title-Name">
+          Matheus Laurindo
+        </h1>
       </div>
       <NavBar />
     </header>
