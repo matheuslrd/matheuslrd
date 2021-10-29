@@ -1,10 +1,10 @@
 const projects = [
   {
-    title: 'Your Wallet',
-    description: `Desenvolvido a fim de estudos para Trybe, para validar meus 
-    conhecimentos em React e Redux.`,
-    linkWebSite: 'https://matheuslrd.github.io/yourwallet/',
-    linkGitHub: 'https://github.com/matheuslrd/yourwallet',
+    title: 'Cound Tunes',
+    description: `Plataforma de música desenvolvida para melhor 
+    fixação a requisições API e React. `,
+    linkWebSite: 'https://cound-tunes.vercel.app/',
+    linkGitHub: 'https://github.com/matheuslrd/cound-tunes',
   },
   {
     title: 'Jogo Trivia',
@@ -14,10 +14,11 @@ const projects = [
     linkGitHub: 'https://github.com/matheuslrd/projeto-trivia',
   },
   {
-    title: 'Title Project',
-    description: 'Aqui estará escrito sobre o que é o projeto e qual sua finalidade.',
-    linkWebSite: '',
-    linkGitHub: '',
+    title: 'Your Wallet',
+    description: `Desenvolvido a fim de estudos para Trybe, para validar
+    conhecimentos em React e Redux.`,
+    linkWebSite: 'https://matheuslrd.github.io/yourwallet/',
+    linkGitHub: 'https://github.com/matheuslrd/yourwallet',
   },
   {
     title: 'Online Store',
