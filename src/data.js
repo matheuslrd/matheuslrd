@@ -1,10 +1,9 @@
 const projects = [
   {
-    title: 'Cound Tunes',
-    description: `Plataforma de música desenvolvida para melhor 
-    fixação a requisições API e React. `,
-    linkWebSite: 'https://cound-tunes.vercel.app/',
-    linkGitHub: 'https://github.com/matheuslrd/cound-tunes',
+    title: 'Title Project',
+    description: 'Aqui estará escrito sobre o que é o projeto e qual sua finalidade.',
+    linkWebSite: '',
+    linkGitHub: '',
   },
   {
     title: 'Jogo Trivia',
