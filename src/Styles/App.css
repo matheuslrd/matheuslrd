@@ -91,8 +91,8 @@
   }
 
   .Project {
-    font-size: 0.8em;
-    height: 16em;
+    font-size: 0.7em;
+    height: 17em;
     padding: 1.3em;
     width: 43%;
   }
@@ -104,6 +104,11 @@
 
   .Abstract-Project {
     font-size: 0.95em;
+    height: 45%;
+  }
+
+  .Buttons-Project {
+    height: 35%;
   }
 
   .link-btn-project {
@@ -112,7 +117,7 @@
 
   .Btn-Project-Links {
     font-size: 0.9em;
-    height: 1.7em;
+    height: 2.5em;
   }
 
   /*Services Page*/
@@ -125,15 +130,16 @@
 
   .Service {
     font-size: 0.8em;
+    height: 19em;
     width: 40%;
   }
 
   .Icon-Service {
-    padding: 1.8em;
+    padding: 1.5em;
   }
 
   .Text-Service {
-    line-height: 1.2em;
+    line-height: 1.1em;
   }
 
   /*Skills Page*/

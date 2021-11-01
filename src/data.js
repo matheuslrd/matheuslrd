@@ -2,8 +2,8 @@ const projects = [
   {
     title: 'Title Project',
     description: 'Aqui estará escrito sobre o que é o projeto e qual sua finalidade.',
-    linkWebSite: '',
-    linkGitHub: '',
+    linkWebSite: '#',
+    linkGitHub: '#',
   },
   {
     title: 'Jogo Trivia',
@@ -29,14 +29,14 @@ const projects = [
   {
     title: 'Title Project',
     description: 'Aqui estará escrito sobre o que é o projeto e qual sua finalidade.',
-    linkWebSite: '',
-    linkGitHub: '',
+    linkWebSite: '#',
+    linkGitHub: '#',
   },
   {
     title: 'Title Project',
     description: 'Aqui estará escrito sobre o que é o projeto e qual sua finalidade.',
-    linkWebSite: '',
-    linkGitHub: '',
+    linkWebSite: '#',
+    linkGitHub: '#',
   },
 ];
 
