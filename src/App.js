@@ -1,11 +1,13 @@
 import React from 'react';
+
 import HomePage from './Pages/HomePage';
-import './App.css';
 import AboutMe from './Pages/AboutMe';
 import Projects from './Pages/Projects';
 import Services from './Pages/Services';
 import Skills from './Pages/Skills';
 import Footer from './Components/Footer';
+
+import './Styles/App.css';
 
 function App() {
   return (

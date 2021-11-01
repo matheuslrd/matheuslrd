@@ -2,8 +2,10 @@ import React from 'react';
 import { MdComputer, MdAccessibilityNew } from 'react-icons/md';
 import { FiSmartphone } from 'react-icons/fi';
 import { GiPencilRuler } from 'react-icons/gi';
+
 import ServiceCard from '../Components/ServiceCard';
-import './services.css';
+
+import '../Styles/services.css';
 
 function Services() {
   return (

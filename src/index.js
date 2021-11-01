@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
+
+import './Styles/index.css';
 
 ReactDOM.render(
   // eslint-disable-next-line react/jsx-filename-extension

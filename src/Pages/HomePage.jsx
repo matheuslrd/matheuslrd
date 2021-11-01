@@ -1,9 +1,11 @@
 import React from 'react';
 import { BsMouse } from 'react-icons/bs';
-import './homePage.css';
+
 import Header from '../Components/Header';
 import ContactMe from '../Components/ContactMe';
 import ButtonsContact from '../Components/ButtonsContact';
+
+import '../Styles/homePage.css';
 
 function HomePage() {
   return (

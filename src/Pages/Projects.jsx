@@ -1,7 +1,9 @@
 import React from 'react';
+
 import ProjectCard from '../Components/ProjectCard';
-import './projects.css';
 import projects from '../data';
+
+import '../Styles/projects.css';
 
 function Projects() {
   const renderProjects = () => (

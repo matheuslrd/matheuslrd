@@ -41,6 +41,8 @@
   color: #5d2de2;
 }
 
+/* CONTEÚDO PRINCIPAL */
+
 .Main-Content {
   display: flex;
   justify-content: space-around;

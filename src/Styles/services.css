@@ -8,18 +8,19 @@
   width: 100%;
 }
 
-.Services-Container-Center {
-  font-size: 1em;
-  display: flex;
-  width: 80%;
-}
-
 .Services-Title {
   font-size: 2em;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 1.4em;
+  margin: 1em;
   width: 100%;
+}
+
+.Services-Container-Center {
+  display: flex;
+  font-size: 1em;
+  flex-flow: row nowrap;
+  width: 80%;
 }
 
 .Service {

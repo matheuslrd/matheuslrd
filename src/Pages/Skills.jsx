@@ -3,9 +3,11 @@ import {
   FaHtml5, FaCss3Alt, FaReact, FaJs,
 } from 'react-icons/fa';
 import { SiRedux, SiJest, SiVisualstudio } from 'react-icons/si';
-import './skills.css';
+
 import AbstractSkills from '../Components/AbstractSkills';
 import SkillCard from '../Components/SkillCard';
+
+import '../Styles/skills.css';
 
 function Skills() {
   return (

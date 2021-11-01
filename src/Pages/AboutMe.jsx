@@ -2,8 +2,10 @@ import React from 'react';
 import {
   FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaLinkedin,
 } from 'react-icons/fa';
+
 import AbstractAboutMe from '../Components/AbstractAboutMe';
-import './aboutMe.css';
+
+import '../Styles/aboutMe.css';
 
 function AboutMe() {
   return (

@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
 import { BiUpArrowAlt } from 'react-icons/bi';
-import './footer.css';
+
+import '../Styles/footer.css';
 
 function Footer() {
   return (
