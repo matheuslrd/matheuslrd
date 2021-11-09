@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/matheuslrd/static/css/main.36fabe66.chunk.css",
+    "main.css": "/matheuslrd/static/css/main.ffa05406.chunk.css",
     "main.js": "/matheuslrd/static/js/main.08ddff1c.chunk.js",
     "main.js.map": "/matheuslrd/static/js/main.08ddff1c.chunk.js.map",
     "runtime-main.js": "/matheuslrd/static/js/runtime-main.94a56fbd.js",
@@ -8,13 +8,13 @@
     "static/js/2.a30f6e35.chunk.js": "/matheuslrd/static/js/2.a30f6e35.chunk.js",
     "static/js/2.a30f6e35.chunk.js.map": "/matheuslrd/static/js/2.a30f6e35.chunk.js.map",
     "index.html": "/matheuslrd/index.html",
-    "static/css/main.36fabe66.chunk.css.map": "/matheuslrd/static/css/main.36fabe66.chunk.css.map",
+    "static/css/main.ffa05406.chunk.css.map": "/matheuslrd/static/css/main.ffa05406.chunk.css.map",
     "static/js/2.a30f6e35.chunk.js.LICENSE.txt": "/matheuslrd/static/js/2.a30f6e35.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.94a56fbd.js",
     "static/js/2.a30f6e35.chunk.js",
-    "static/css/main.36fabe66.chunk.css",
+    "static/css/main.ffa05406.chunk.css",
     "static/js/main.08ddff1c.chunk.js"
   ]
 }
