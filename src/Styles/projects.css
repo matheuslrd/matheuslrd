@@ -2,7 +2,6 @@
   align-items: center;
   display: flex;
   flex-flow: column nowrap;
-  height: 100vh;
   width: 100%;
 }
 
@@ -76,7 +75,7 @@
 
 .Repositories-On-GitHub {
   text-align: center;
-  padding: 1em;
+  padding: 1.28em;
   width: 100%;
 }
 
