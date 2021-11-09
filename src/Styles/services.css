@@ -4,7 +4,6 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  height: 88vh;
   width: 100%;
 }
 
@@ -12,7 +11,7 @@
   font-size: 2em;
   font-weight: 400;
   text-align: center;
-  margin: 1em;
+  margin: 2em;
   width: 100%;
 }
 
@@ -20,6 +19,7 @@
   display: flex;
   font-size: 1em;
   flex-flow: row nowrap;
+  margin-bottom: 5em;
   width: 80%;
 }
 
