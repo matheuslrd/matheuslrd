@@ -1,4 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { ThemeProvider } from 'styled-components';
+
+import { MyContext } from './Context/MyProvider';
 
 import HomePage from './Pages/HomePage';
 import AboutMe from './Pages/AboutMe';
@@ -7,20 +11,30 @@ import Services from './Pages/Services';
 import Skills from './Pages/Skills';
 import Footer from './Components/Footer';
 
-import './Styles/App.css';
+import GlobalStyle from './Styles/global';
+import StyledApp from './Styles/app';
+
+import { darkTheme, lightTheme } from './Styles/Theme';
 
 // eslint-disable-next-line react/function-component-definition
 function App() {
+  const { theme } = useContext(MyContext);
+
   return (
     // eslint-disable-next-line react/jsx-filename-extension
-    <main className="App">
-      <HomePage />
-      <AboutMe />
-      <Projects />
-      <Services />
-      <Skills />
-      <Footer />
-    </main>
+    <ThemeProvider theme={theme ? darkTheme : lightTheme}>
+      <StyledApp>
+        <main className="App">
+          <GlobalStyle />
+          <HomePage />
+          <AboutMe />
+          <Projects />
+          <Services />
+          <Skills />
+          <Footer />
+        </main>
+      </StyledApp>
+    </ThemeProvider>
   );
 }
 

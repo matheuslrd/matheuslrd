@@ -3,7 +3,7 @@ import React from 'react';
 import ProjectCard from '../Components/ProjectCard';
 import projects from '../data';
 
-import '../Styles/projects.css';
+import StyledProjects from '../Styles/projects';
 
 // eslint-disable-next-line react/function-component-definition
 function Projects() {
@@ -20,22 +20,24 @@ function Projects() {
     ))
   );
   return (
-    <section id="Projects">
-      <h2 className="Title-Projects"> Projetos </h2>
-      <div className="Projects-Container">
-        { renderProjects() }
-      </div>
-      <div className="Repositories-On-GitHub">
-        <a
-          href="https://github.com/matheuslrd?tab=repositories"
-          className="Link-Repositories-On-GitHub"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Repositórios no GitHub
-        </a>
-      </div>
-    </section>
+    <StyledProjects>
+      <section id="Projects">
+        <h2 className="Title-Projects"> Projetos </h2>
+        <div className="Projects-Container">
+          { renderProjects() }
+        </div>
+        <div className="Repositories-On-GitHub">
+          <a
+            href="https://github.com/matheuslrd?tab=repositories"
+            className="Link-Repositories-On-GitHub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Repositórios no GitHub
+          </a>
+        </div>
+      </section>
+    </StyledProjects>
   );
 }
 
