@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Services = styled.div`
   #Services {
-    background: #202024;
+    background: ${(props) => props.theme.color.secundary};
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -27,7 +27,7 @@ const Services = styled.div`
   }
 
   .Service {
-    background: #121214;
+    background: ${(props) => props.theme.color.primary};
     text-align: center;
     border-radius: 0.3em;
     font-size: 0.9em;

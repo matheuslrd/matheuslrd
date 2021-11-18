@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const AboutMe = styled.div`
   #About-Me {
-    background: #202024;
+    background: ${(props) => props.theme.color.secundary};
     display: flex;
     flex-flow: row nowrap;
     height: 88vh;

@@ -24,7 +24,7 @@ const Projects = styled.div`
 
   .Project {
     text-align: start;
-    background: #202024;
+    background: ${(props) => props.theme.color.secundary};
     margin: 1em;
     padding: 2em 1.5em;
     font-size: 0.9em;
