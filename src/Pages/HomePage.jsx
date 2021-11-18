@@ -7,6 +7,7 @@ import ButtonsContact from '../Components/ButtonsContact';
 
 import '../Styles/homePage.css';
 
+// eslint-disable-next-line react/function-component-definition
 function HomePage() {
   return (
     <section id="Home-Page">

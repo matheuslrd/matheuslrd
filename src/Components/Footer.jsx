@@ -1,9 +1,11 @@
 import React from 'react';
+
 import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
 import { BiUpArrowAlt } from 'react-icons/bi';
 
 import '../Styles/footer.css';
 
+// eslint-disable-next-line react/function-component-definition
 function Footer() {
   return (
     <footer className="Footer">

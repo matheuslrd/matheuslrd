@@ -9,6 +9,7 @@ import Footer from './Components/Footer';
 
 import './Styles/App.css';
 
+// eslint-disable-next-line react/function-component-definition
 function App() {
   return (
     // eslint-disable-next-line react/jsx-filename-extension

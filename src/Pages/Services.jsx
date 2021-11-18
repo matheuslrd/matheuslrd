@@ -7,6 +7,7 @@ import ServiceCard from '../Components/ServiceCard';
 
 import '../Styles/services.css';
 
+// eslint-disable-next-line react/function-component-definition
 function Services() {
   return (
     <section id="Services">

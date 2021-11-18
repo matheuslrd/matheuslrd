@@ -9,6 +9,7 @@ import SkillCard from '../Components/SkillCard';
 
 import '../Styles/skills.css';
 
+// eslint-disable-next-line react/function-component-definition
 function Skills() {
   return (
     <section id="Skills">

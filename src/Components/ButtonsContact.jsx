@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaWhatsapp, FaLinkedin, FaGithub } from 'react-icons/fa';
 
+// eslint-disable-next-line react/function-component-definition
 function ButtonsContact() {
   return (
     <>

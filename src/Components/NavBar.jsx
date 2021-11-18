@@ -1,5 +1,6 @@
 import React from 'react';
 
+// eslint-disable-next-line react/function-component-definition
 function NavBar() {
   return (
     <nav className="Nav-Bar">
