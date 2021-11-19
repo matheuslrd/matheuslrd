@@ -1,18 +1,25 @@
-import React, { useContext } from 'react';
+/* eslint-disable react/jsx-no-bind */
+import React, { useContext, useState } from 'react';
+
+import Switch from 'react-switch';
 
 import { MyContext } from '../Context/MyProvider';
 
 // eslint-disable-next-line react/function-component-definition
 function NavBar() {
   const { theme, setTheme } = useContext(MyContext);
+
+  const [themeSwitch, setThemeSwitch] = useState(theme);
+
   function changeTheme() {
     setTheme(!theme);
+    setThemeSwitch(!theme);
   }
 
   return (
     <nav className="Nav-Bar">
       <ul>
-        <input type="checkbox" onChange={changeTheme} />
+        <Switch onChange={changeTheme} checked={themeSwitch} />
         <li>
           <a href="#About-Me"> Sobre Mim </a>
         </li>
