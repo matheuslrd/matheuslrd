@@ -13,7 +13,7 @@ export default createGlobalStyle`
 
   body {
     color: ${(props) => props.theme.color.text};
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Roboto', sans-serif;
   }
 `;
