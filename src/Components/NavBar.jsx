@@ -3,6 +3,8 @@ import React, { useContext, useState } from 'react';
 
 import Switch from 'react-switch';
 
+import { BsFillSunFill } from 'react-icons/bs';
+
 import { MyContext } from '../Context/MyProvider';
 
 // eslint-disable-next-line react/function-component-definition
@@ -19,7 +21,25 @@ function NavBar() {
   return (
     <nav className="Nav-Bar">
       <ul>
-        <Switch onChange={changeTheme} checked={themeSwitch} />
+        <li>
+          <Switch
+            activeBoxShadow="none"
+            checked={themeSwitch}
+            checkedIcon={(
+              <BsFillSunFill
+                color="#fff"
+                size="0.9em"
+                className="Light-Theme-Icon"
+              />
+            )}
+            className="Switch-Theme"
+            handleDiameter={17}
+            height={17}
+            onChange={changeTheme}
+            onColor="#888"
+            width={45}
+          />
+        </li>
         <li>
           <a href="#About-Me"> Sobre Mim </a>
         </li>

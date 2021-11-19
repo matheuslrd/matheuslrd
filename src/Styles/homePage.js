@@ -5,15 +5,20 @@ const HomePage = styled.div`
 
   #Home-Page {
     height: 100vh;
+    padding-top: 8%;
     width: 100%;
   }
 
   .Header {
+    align-items: center;
     background: ${(props) => props.theme.color.secundary};
+    box-shadow: 0px 1px 10px #1a1a1a;
     display: flex;
     justify-content: space-around;
-    padding: 1.5em;
+    padding: 1.3em;
+    position: fixed;
     transition: 0.2s all ease-out;
+    top: 0;
     width: 100%;
     z-index: 1;
   }
@@ -32,6 +37,11 @@ const HomePage = styled.div`
     display: flex;
     justify-content: space-around;
     width: 100%;
+  }
+
+  .Light-Theme-Icon {
+    margin-left: 0.3em;
+    margin-top: 0.1em;
   }
 
   .Nav-Bar ul a {
