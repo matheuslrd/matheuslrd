@@ -5,7 +5,8 @@ const AboutMe = styled.div`
     background: ${(props) => props.theme.color.secundary};
     display: flex;
     flex-flow: row nowrap;
-    height: 88vh;
+    padding: 5em 0;
+    transition: 0.25s all ease-out;
     width: 100%;
   }
 

@@ -2,18 +2,19 @@ import styled from 'styled-components';
 
 const Skills = styled.div`
   #Skills {
+    align-items: center;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
     height: 88vh;
+    transition: 0.25s all ease-out;
     width: 100%;
   }
 
   .Skills-Container {
+    align-items: center;
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
     width: 80%;
   }
 

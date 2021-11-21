@@ -6,6 +6,7 @@ const HomePage = styled.div`
   #Home-Page {
     height: 100vh;
     padding-top: 8%;
+    transition: 0.25s all ease-out;
     width: 100%;
   }
 
@@ -17,8 +18,8 @@ const HomePage = styled.div`
     justify-content: space-around;
     padding: 1.3em;
     position: fixed;
-    transition: 0.2s all ease-out;
     top: 0;
+    transition: 0.25s all ease-out;
     width: 100%;
     z-index: 1;
   }
@@ -33,9 +34,9 @@ const HomePage = styled.div`
   }
 
   .Nav-Bar ul {
-    list-style: none;
     display: flex;
     justify-content: space-around;
+    list-style: none;
     width: 100%;
   }
 
@@ -45,7 +46,7 @@ const HomePage = styled.div`
   }
 
   .Nav-Bar ul a {
-    font-weight: 500;
+    font-weight: 600;
     color: ${(props) => props.theme.color.text};
     text-decoration: none;
     transition: all 0.1s ease-out;

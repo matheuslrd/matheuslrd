@@ -5,6 +5,7 @@ const Projects = styled.div`
     align-items: center;
     display: flex;
     flex-flow: column nowrap;
+    transition: 0.25s all ease-out;
     width: 100%;
   }
 

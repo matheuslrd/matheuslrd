@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 const Services = styled.div`
   #Services {
+    align-items: center;
     background: ${(props) => props.theme.color.secundary};
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
+    transition: 0.25s all ease-out;
     width: 100%;
   }
 
