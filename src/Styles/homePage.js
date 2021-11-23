@@ -13,10 +13,10 @@ const HomePage = styled.div`
   .Header {
     align-items: center;
     background: ${(props) => props.theme.color.secundary};
-    box-shadow: 0px 1px 10px #1a1a1a;
+    box-shadow: 0px 1px 10px rgba(26, 26, 26, 0.4);
     display: flex;
     justify-content: space-around;
-    padding: 1.3em;
+    padding: 1.1em;
     position: fixed;
     top: 0;
     transition: 0.25s all ease-out;

@@ -56,11 +56,20 @@ const AboutMe = styled.div`
   }
 
   .About-Me-Btn-LinkedIn {
-    margin: 3em 0;
-    color: #fdfdfd;
+    align-items: center;
     background: #5d2de2;
-    transition: 0.1s all ease-out;
+    border: none;
+    border-radius: 0.3em;
+    color: #fdfdfd;
+    cursor: pointer;
+    display: flex;
+    font-size: 1em;
+    font-weight: 600;
     height: 3em;
+    outline: none;
+    justify-content: center;
+    margin: 3em 0;
+    transition: 0.1s all ease-out;
     width: 30%;
   }
 
