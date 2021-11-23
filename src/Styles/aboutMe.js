@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 const AboutMe = styled.div`
-  #About-Me {
+  #About-Me-Page {
     background: ${(props) => props.theme.color.secundary};
     display: flex;
     flex-flow: row nowrap;
-    padding: 5em 0;
+    padding: 3em 0;
     transition: 0.25s all ease-out;
     width: 100%;
   }

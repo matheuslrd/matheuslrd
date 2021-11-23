@@ -11,7 +11,7 @@ import StyledAboutMe from '../Styles/aboutMe';
 function AboutMe() {
   return (
     <StyledAboutMe>
-      <section id="About-Me">
+      <section id="About-Me-Page">
 
         <section className="Avatar-Matheus">
           <div className="Icons">

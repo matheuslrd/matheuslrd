@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Services = styled.div`
-  #Services {
+  #Services-Page {
     align-items: center;
     background: ${(props) => props.theme.color.secundary};
     display: flex;
@@ -13,9 +13,9 @@ const Services = styled.div`
 
   .Services-Title {
     font-size: 2em;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
-    margin: 2em;
+    margin: 1em;
     width: 100%;
   }
 

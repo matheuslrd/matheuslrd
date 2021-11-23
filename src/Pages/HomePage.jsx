@@ -31,7 +31,7 @@ function HomePage() {
         <section className="seta">
           <p className="Scrool-Text">ROLE PARA BAIXO</p>
           <a href="#About-Me" className="Mouse-Seta">
-            <BsMouse size="3em" />
+            <BsMouse size="3em" id="About-Me" />
           </a>
         </section>
       </section>

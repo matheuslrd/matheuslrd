@@ -10,9 +10,10 @@ const Projects = styled.div`
   }
 
   .Title-Projects {
+    font-size: 2em;
     font-weight: 500;
     text-align: center;
-    padding: 1em;
+    padding: 2.5em 0 1em;
     width: 100%;
   }
 
