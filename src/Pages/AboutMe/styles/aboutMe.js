@@ -77,6 +77,10 @@ const AboutMe = styled.div`
     background: #351980;
   }
 
+  .linkedin-title {
+    margin-left: 0.3em;
+  }
+
   @media screen and (max-width: 768px) {
     /*About Me Page*/
     #About-Me-Page {

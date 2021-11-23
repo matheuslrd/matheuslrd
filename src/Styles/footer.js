@@ -54,6 +54,16 @@ const Footer = styled.div`
     border: 2px solid #351980;
     background: #351980;
   }
+  @media screen and (max-width: 768px) {
+    .Footer-Icons-Container {
+      width: 70%;
+    }
+
+    .Icons-Footer {
+      margin: 0;
+      width: 70%;
+    }
+  }
 `;
 
 export default Footer;

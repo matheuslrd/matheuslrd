@@ -1,11 +1,11 @@
 import React from 'react';
 import { BsMouse } from 'react-icons/bs';
 
-import Header from '../Components/Header';
-import ContactMe from '../Components/ContactMe';
-import ButtonsContact from '../Components/ButtonsContact';
+import Header from '../../Components/Header';
+import ContactMe from './components/ContactMe';
+import ButtonsContact from './components/ButtonsContact';
 
-import StyledHomePage from '../Styles/homePage';
+import StyledHomePage from './styles/homePage';
 
 // eslint-disable-next-line react/function-component-definition
 function HomePage() {

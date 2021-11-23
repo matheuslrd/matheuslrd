@@ -66,6 +66,37 @@ const Skills = styled.div`
   .Skill-Card:hover {
     border-bottom: 4px solid #5429cf;
   }
+
+  @media screen and (max-width: 768px) {
+    .Skills-Container {
+      display: flex;
+      flex-flow: column nowrap;
+      font-size: 0.95em;
+      padding: 1em;
+      width: 98%;
+    }
+
+    .Abstract-Skills {
+      padding: 0;
+      width: 100%;
+    }
+
+    .Skills-Title {
+      text-align: center;
+      margin-bottom: 0.8em;
+    }
+
+    .Icons-Skills {
+      margin: 3em;
+      width: 100%;
+    }
+
+    .Skill-Card {
+      font-size: 0.9em;
+      height: 7em;
+      width: 20%;
+    }
+  }
 `;
 
 export default Skills;

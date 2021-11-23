@@ -3,9 +3,9 @@ import {
   FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaLinkedin,
 } from 'react-icons/fa';
 
-import AbstractAboutMe from '../Components/AbstractAboutMe';
+import AbstractAboutMe from './components/AbstractAboutMe';
 
-import StyledAboutMe from '../Styles/aboutMe';
+import StyledAboutMe from './styles/aboutMe';
 
 // eslint-disable-next-line react/function-component-definition
 function AboutMe() {
@@ -43,7 +43,7 @@ function AboutMe() {
               >
                 <button type="button" className="About-Me-Btn-LinkedIn Btn-Contact">
                   <FaLinkedin size="1.4em" />
-                  <span className="whats">LinkedIn</span>
+                  <span className="whats linkedin-title">LinkedIn</span>
                 </button>
               </a>
 

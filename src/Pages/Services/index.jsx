@@ -3,9 +3,9 @@ import { MdComputer, MdAccessibilityNew } from 'react-icons/md';
 import { FiSmartphone } from 'react-icons/fi';
 import { GiPencilRuler } from 'react-icons/gi';
 
-import ServiceCard from '../Components/ServiceCard';
+import ServiceCard from './components/ServiceCard';
 
-import StyledServices from '../Styles/services';
+import StyledServices from './styles/services';
 
 // eslint-disable-next-line react/function-component-definition
 function Services() {

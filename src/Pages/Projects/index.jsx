@@ -1,9 +1,9 @@
 import React from 'react';
 
-import ProjectCard from '../Components/ProjectCard';
-import projects from '../data';
+import ProjectCard from './components/ProjectCard';
+import projects from '../../data';
 
-import StyledProjects from '../Styles/projects';
+import StyledProjects from './styles/projects';
 
 // eslint-disable-next-line react/function-component-definition
 function Projects() {

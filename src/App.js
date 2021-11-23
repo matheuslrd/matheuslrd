@@ -4,19 +4,17 @@ import { ThemeProvider } from 'styled-components';
 
 import { MyContext } from './Context/MyProvider';
 
-import HomePage from './Pages/HomePage';
-import AboutMe from './Pages/AboutMe';
-import Projects from './Pages/Projects';
-import Services from './Pages/Services';
-import Skills from './Pages/Skills';
+import HomePage from './Pages/HomePage/index';
+import AboutMe from './Pages/AboutMe/index';
+import Projects from './Pages/Projects/index';
+import Services from './Pages/Services/index';
+import Skills from './Pages/Skills/index';
 import Footer from './Components/Footer';
 
 import GlobalStyle from './Styles/global';
 import StyledApp from './Styles/app';
 
 import { darkTheme, lightTheme } from './Styles/Theme';
-
-import './App.css';
 
 // eslint-disable-next-line react/function-component-definition
 function App() {

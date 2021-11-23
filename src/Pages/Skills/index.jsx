@@ -4,10 +4,10 @@ import {
 } from 'react-icons/fa';
 import { SiRedux, SiJest, SiVisualstudio } from 'react-icons/si';
 
-import AbstractSkills from '../Components/AbstractSkills';
-import SkillCard from '../Components/SkillCard';
+import AbstractSkills from './components/AbstractSkills';
+import SkillCard from './components/SkillCard';
 
-import StyledSkills from '../Styles/skills';
+import StyledSkills from './styles/skills';
 
 // eslint-disable-next-line react/function-component-definition
 function Skills() {
