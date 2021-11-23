@@ -20,7 +20,7 @@ function ServiceCard({ iconService, titleService, textService }) {
 }
 
 ServiceCard.propTypes = {
-  iconService: PropsTypes.string.isRequired,
+  iconService: PropsTypes.node.isRequired,
   titleService: PropsTypes.string.isRequired,
   textService: PropsTypes.string.isRequired,
 };

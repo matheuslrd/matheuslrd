@@ -43,7 +43,9 @@ function AboutMe() {
               >
                 <button type="button" className="About-Me-Btn-LinkedIn Btn-Contact">
                   <FaLinkedin size="1.4em" />
-                  <span className="whats linkedin-title">LinkedIn</span>
+                  <span className="whats linkedin-title">
+                    LinkedIn
+                  </span>
                 </button>
               </a>
 

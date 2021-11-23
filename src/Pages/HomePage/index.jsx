@@ -13,6 +13,7 @@ function HomePage() {
     <StyledHomePage>
       <section id="Home-Page">
         <Header />
+
         <main className="Main-Content">
           <section className="Contacte-Me-Container">
             <ContactMe />
@@ -28,8 +29,11 @@ function HomePage() {
             </div>
           </section>
         </main>
+
         <section className="seta">
-          <p className="Scrool-Text">ROLE PARA BAIXO</p>
+          <p className="Scrool-Text">
+            ROLE PARA BAIXO
+          </p>
           <a href="#About-Me" className="Mouse-Seta">
             <BsMouse size="3em" id="About-Me" />
           </a>

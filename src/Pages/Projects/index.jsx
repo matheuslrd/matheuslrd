@@ -10,9 +10,10 @@ function Projects() {
   function renderProjects() {
     return (
       projects.map(({
-        title, description, linkWebSite, linkGitHub,
+        title, description, linkWebSite, linkGitHub, id,
       }) => (
         <ProjectCard
+          key={id}
           title={title}
           description={description}
           linkWebSite={linkWebSite}

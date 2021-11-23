@@ -16,7 +16,7 @@ function SkillCard({ skillIcon, textSkill }) {
 }
 
 SkillCard.propTypes = {
-  skillIcon: PropsTypes.string.isRequired,
+  skillIcon: PropsTypes.node.isRequired,
   textSkill: PropsTypes.string.isRequired,
 };
 
