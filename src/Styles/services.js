@@ -54,6 +54,29 @@ const Services = styled.div`
     line-height: 1.5em;
   }
 
+  @media screen and (max-width: 768px) {
+    .Services-Container-Center {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      width: 98%;
+    }
+
+    .Service {
+      font-size: 0.8em;
+      height: 19em;
+      width: 40%;
+    }
+
+    .Icon-Service {
+      padding: 1.5em;
+    }
+
+    .Text-Service {
+      line-height: 1.1em;
+    }
+  }
+
 `;
 
 export default Services;

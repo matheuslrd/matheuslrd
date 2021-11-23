@@ -97,6 +97,48 @@ const Projects = styled.div`
     color: #754be7;
   }
 
+  @media screen and (max-width: 768px) {
+    .Projects-Container {
+      display: flex;
+      flex-flow: row wrap;
+      width: 98%;
+    }
+
+    .Title-Projects {
+      padding-bottom: 0.5em;
+    }
+
+    .Project {
+      font-size: 0.7em;
+      height: 17em;
+      padding: 1.3em;
+      width: 43%;
+    }
+
+    .Buttons-Project {
+      display: flex;
+      flex-flow: column nowrap;
+    }
+
+    .Abstract-Project {
+      font-size: 0.95em;
+      height: 45%;
+    }
+
+    .Buttons-Project {
+      height: 35%;
+    }
+
+    .link-btn-project {
+      width: 100%;
+    }
+
+    .Btn-Project-Links {
+      font-size: 0.9em;
+      height: 2.5em;
+    }
+  }
+
 `;
 
 export default Projects;
