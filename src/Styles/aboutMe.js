@@ -76,6 +76,41 @@ const AboutMe = styled.div`
   .About-Me-Btn-LinkedIn:hover {
     background: #351980;
   }
+
+  @media screen and (max-width: 768px) {
+    /*About Me Page*/
+    #About-Me-Page {
+      align-items: center;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+    }
+
+    .Avatar-Matheus {
+      padding: 0 0 2em 0;
+      width: 100%;
+    }
+
+    .Avatar-Matheus-Img {
+      width: 10em;
+    }
+
+    .Icons {
+      display: none;
+    }
+
+    .About-Me-Container {
+      width: 85%;
+    }
+
+    .About-Me-Center {
+      width: 100%;
+    }
+
+    .About-Me-Btn-LinkedIn {
+      width: 100%;
+    }
+  }
 `;
 
 export default AboutMe;
