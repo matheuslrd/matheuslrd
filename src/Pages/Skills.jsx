@@ -13,7 +13,7 @@ import StyledSkills from '../Styles/skills';
 function Skills() {
   return (
     <StyledSkills>
-      <section id="Skills">
+      <section id="Skills-Page">
 
         <div className="Skills-Container">
           <AbstractSkills />

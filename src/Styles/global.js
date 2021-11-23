@@ -7,6 +7,7 @@ export default createGlobalStyle`
     padding: 0;
     scroll-behavior: smooth;
     text-decoration: none;
+    outline: 0;
   }
   
   body {

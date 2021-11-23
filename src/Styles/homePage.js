@@ -16,7 +16,7 @@ const HomePage = styled.div`
     box-shadow: 0px 1px 10px rgba(26, 26, 26, 0.4);
     display: flex;
     justify-content: space-around;
-    padding: 1.1em;
+    padding: 0.8em;
     position: fixed;
     top: 0;
     transition: 0.25s all ease-out;
@@ -57,7 +57,6 @@ const HomePage = styled.div`
   }
 
   /* CONTEÚDO PRINCIPAL */
-
   .Main-Content {
     display: flex;
     justify-content: space-around;
@@ -81,8 +80,9 @@ const HomePage = styled.div`
   }
 
   .Main-Content .Blob-svg {
-    display: flex;
     align-items: center;
+    display: flex;
+    justify-content: center;
     height: 100%;
     width: 45%;
   }
@@ -103,19 +103,19 @@ const HomePage = styled.div`
   }
 
   .Btn-Contact {
+    align-items: center;
     background: #e3d42d;
-    font-size: 1em;
-    color: #202024;
-    cursor: pointer;
-    font-weight: 600;
-    outline: none;
     border: none;
     border-radius: 0.3em;
+    color: #202024;
+    cursor: pointer;
     display: flex;
-    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+    height: 2.5em;
     justify-content: center;
     margin-bottom: 1em;
-    height: 2.5em;
+    outline: none;
     width: 100%;
   }
 
@@ -140,22 +140,74 @@ const HomePage = styled.div`
   }
 
   .Scrool-Text {
-    margin-top: -1em;
     margin-bottom: 0.5em;
+    margin-top: -1em;
   }
 
   .seta {
+    align-items: center;
     color: #5d2de2;
-    height: 5.5em;
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+    height: 5.5em;
     justify-content: center;
     width: 100%;
   }
 
   .Mouse-Seta {
     color: #5d2de2;
+  }
+
+  @media screen and (max-width: 768px) {
+    #Home-Page {
+      padding-top: 0;
+    }
+
+    .Header {
+      display: none;
+    }
+
+    .Nav-Bar {
+      display: none;
+    }
+
+    .Main-Content {
+      align-items: center;
+      display: flex;
+      flex-flow: column nowrap;
+      height: 78%;
+      justify-content: space-evenly;
+    }
+
+    .Main-Content .Contacte-Me-Container {
+      height: 30%;
+      text-align: center;
+      width: 80%;
+    }
+
+    .Blob-svg {
+      height: 50%!important;
+      width: 100%!important;
+    }
+
+    .Main-Content .Blob {
+      display: none;
+      height: 100%;
+      width: 100%;
+    }
+
+    .Container-Buttons-Contact {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+      margin-left: 0;
+      height: 30%;
+      width: 80%;
+    }
+
+    .Btn-Contact {
+      height: 3em;
+    }
   }
 `;
 

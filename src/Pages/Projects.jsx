@@ -7,18 +7,20 @@ import StyledProjects from '../Styles/projects';
 
 // eslint-disable-next-line react/function-component-definition
 function Projects() {
-  const renderProjects = () => (
-    projects.map(({
-      title, description, linkWebSite, linkGitHub,
-    }) => (
-      <ProjectCard
-        title={title}
-        description={description}
-        linkWebSite={linkWebSite}
-        linkGitHub={linkGitHub}
-      />
-    ))
-  );
+  function renderProjects() {
+    return (
+      projects.map(({
+        title, description, linkWebSite, linkGitHub,
+      }) => (
+        <ProjectCard
+          title={title}
+          description={description}
+          linkWebSite={linkWebSite}
+          linkGitHub={linkGitHub}
+        />
+      ))
+    );
+  }
   return (
     <StyledProjects>
       <section id="Projects">

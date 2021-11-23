@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Skills = styled.div`
-  #Skills {
+  #Skills-Page {
     align-items: center;
     display: flex;
     flex-flow: column nowrap;

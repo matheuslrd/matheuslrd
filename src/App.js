@@ -16,6 +16,8 @@ import StyledApp from './Styles/app';
 
 import { darkTheme, lightTheme } from './Styles/Theme';
 
+import './App.css';
+
 // eslint-disable-next-line react/function-component-definition
 function App() {
   const { theme } = useContext(MyContext);

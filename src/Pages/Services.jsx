@@ -40,6 +40,9 @@ function Services() {
             seu site apareça cada vez mais nas pesquisas e mais acessível.`}
           />
         </div>
+        <div>
+          <div id="Skills" />
+        </div>
       </section>
     </StyledServices>
   );

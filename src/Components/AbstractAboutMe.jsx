@@ -9,7 +9,7 @@ function AbstractAboutMe() {
       <p className="About-Me-Matheus">
         Meu nome é Matheus Laurindo, tenho 20 anos e moro em Gravataí/RS.
         <br />
-        Gosto de ler, ver filmes e práticar exercicios fisicos.
+        Sou apaixonado por filmes, tecnologia e praticar exercícios físicos.
       </p>
       <br />
       <p>

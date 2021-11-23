@@ -13,7 +13,7 @@ const Projects = styled.div`
     font-size: 2em;
     font-weight: 500;
     text-align: center;
-    padding: 2.5em 0 1em;
+    padding: 2em 0 1em;
     width: 100%;
   }
 
@@ -76,6 +76,10 @@ const Projects = styled.div`
 
   .Btn-Project-Links:hover {
     background: #351980;
+  }
+
+  .Btn-Project-Title {
+    margin-left: 0.3em;
   }
 
   .Repositories-On-GitHub {

@@ -27,7 +27,7 @@ function ProjectCard(props) {
         >
           <button type="button" className="Btn-Project-Links">
             <SiSitepoint />
-            <span className="whats">WebSite</span>
+            <span className="Btn-Project-Title">WebSite</span>
           </button>
         </a>
         <a
@@ -38,7 +38,7 @@ function ProjectCard(props) {
         >
           <button type="button" className="Btn-Project-Links">
             <FaGithub />
-            <span className="whats"> GitHub </span>
+            <span className="Btn-Project-Title"> GitHub </span>
           </button>
         </a>
       </div>
