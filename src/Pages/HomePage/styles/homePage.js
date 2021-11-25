@@ -24,9 +24,13 @@ const HomePage = styled.div`
     z-index: 1;
   }
 
+  .Ancor-Title-Name {
+    color: ${(props) => props.theme.color.text};
+  }
+
   .Title-Name {
     font-family: 'Merienda', cursive;
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .Nav-Bar {

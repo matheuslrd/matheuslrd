@@ -7,9 +7,11 @@ function Header() {
   return (
     <header className="Header">
       <div className="Logo-Matheus-Laurindo">
-        <h1 className="Title-Name">
-          Matheus Laurindo
-        </h1>
+        <a href="#Home-Page" target="_self" className="Ancor-Title-Name">
+          <h1 className="Title-Name">
+            Matheus Laurindo
+          </h1>
+        </a>
       </div>
       <NavBar />
     </header>
