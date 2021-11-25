@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-bind */
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 
 import Switch from 'react-switch';
 
@@ -11,11 +11,9 @@ import { MyContext } from '../Context/MyProvider';
 function NavBar() {
   const { theme, setTheme } = useContext(MyContext);
 
-  const [themeSwitch, setThemeSwitch] = useState(theme);
-
   function changeTheme() {
     setTheme(!theme);
-    setThemeSwitch(!theme);
+    localStorage.setItem('theme', !theme);
   }
 
   return (
@@ -24,7 +22,7 @@ function NavBar() {
         <li>
           <Switch
             activeBoxShadow="none"
-            checked={themeSwitch}
+            checked={theme}
             checkedIcon={(
               <BsFillSunFill
                 color="#fff"
