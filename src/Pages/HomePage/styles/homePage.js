@@ -12,6 +12,8 @@ const HomePage = styled.div`
 
   #luxbar {
     background: ${(props) => props.theme.color.secundary};
+    -webkit-box-shadow: 0px -6px 10px 8px rgba(0,0,0,0.43); 
+    box-shadow: 0px -6px 10px 8px rgba(0,0,0,0.15);
     position: fixed;
     top: 0;
     transition: 0.25s all ease-out;
@@ -99,22 +101,22 @@ const HomePage = styled.div`
   .Main-Content .Blob-svg {
     align-items: center;
     display: flex;
-    justify-content: center;
     height: 100%;
+    justify-content: center;
     width: 45%;
   }
 
   .Main-Content .Blob {
-    position: relative;
-    z-index: 0;
-    height: 100%;
     display: flex;
+    height: 100%;
+    position: relative;
     width: 100%;
+    z-index: 0;
   }
 
   .Container-Buttons-Contact {
-    margin-top: 0.5em;
-    margin-left: 8em;
+    margin-top: 0.5rem;
+    margin-left: -10rem;
     position: absolute;
     width: 15%;
   }
@@ -177,7 +179,7 @@ const HomePage = styled.div`
 
   @media screen and (max-width: 768px) {
     #Home-Page {
-      padding-top: 0;
+      padding-top: 8%;
     }
 
     .Header {

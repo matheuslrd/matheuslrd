@@ -44,7 +44,7 @@ const Skills = styled.div`
   .Skill-Card {
     border: 4px solid ${(props) => props.theme.color.secundary};
     border-radius: 0.3em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.20);
     background: ${(props) => props.theme.color.secundary};
     display: flex;
     flex-flow: column nowrap;
