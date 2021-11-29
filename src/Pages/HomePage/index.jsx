@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsMouse } from 'react-icons/bs';
 
-import Header from '../../Components/Header';
+import HeaderLuxBar from '../../Components/HeaderLuxBar';
 import ContactMe from './components/ContactMe';
 import ButtonsContact from './components/ButtonsContact';
 
@@ -12,7 +12,7 @@ function HomePage() {
   return (
     <StyledHomePage>
       <section id="Home-Page">
-        <Header />
+        <HeaderLuxBar />
 
         <main className="Main-Content">
           <section className="Contacte-Me-Container">

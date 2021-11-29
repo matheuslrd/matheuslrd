@@ -5,7 +5,6 @@ const HomePage = styled.div`
 
   #Home-Page {
     height: 100vh;
-    padding-top: 8%;
     transition: 0.25s all ease-out;
     width: 100%;
   }
