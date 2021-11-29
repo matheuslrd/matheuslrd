@@ -5,31 +5,40 @@ const HomePage = styled.div`
 
   #Home-Page {
     height: 100vh;
+    padding-top: 8%;
     transition: 0.25s all ease-out;
     width: 100%;
   }
 
-  .Header {
-    align-items: center;
+  #luxbar {
     background: ${(props) => props.theme.color.secundary};
-    box-shadow: 0px 1px 10px rgba(26, 26, 26, 0.4);
-    display: flex;
-    justify-content: space-around;
-    padding: 0.8em;
+    padding: 0 2rem;
     position: fixed;
     top: 0;
-    transition: 0.25s all ease-out;
     width: 100%;
-    z-index: 1;
+    z-index: 100;
   }
 
-  .Ancor-Title-Name {
+  .luxbar-menu-dark {
+    background: ${(props) => props.theme.color.secundary};
     color: ${(props) => props.theme.color.text};
+    overflow: hidden;
+  }
+
+  .luxbar-item {
+    align-items: center;
+    display: flex;
+  }
+
+  .luxbar-item:hover {
+    background: none;
+    color: #5d2de2;
+    transition: 0.2s all ease-out;
   }
 
   .Title-Name {
     font-family: 'Merienda', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .Nav-Bar {
