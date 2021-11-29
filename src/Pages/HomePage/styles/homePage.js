@@ -12,16 +12,21 @@ const HomePage = styled.div`
 
   #luxbar {
     background: ${(props) => props.theme.color.secundary};
-    padding: 0 2rem;
     position: fixed;
     top: 0;
+    transition: 0.25s all ease-out;
     width: 100%;
     z-index: 100;
+  }
+
+  .luxbar-menu {
+    transition: 0.25s all ease-out!important;
   }
 
   .luxbar-menu-dark {
     background: ${(props) => props.theme.color.secundary};
     color: ${(props) => props.theme.color.text};
+    padding: 0 2rem;
     overflow: hidden;
   }
 
@@ -33,7 +38,7 @@ const HomePage = styled.div`
   .luxbar-item:hover {
     background: none;
     color: #5d2de2;
-    transition: 0.2s all ease-out;
+    transition: 0.25s all ease-out;
   }
 
   .Title-Name {
