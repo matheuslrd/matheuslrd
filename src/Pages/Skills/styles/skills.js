@@ -6,7 +6,6 @@ const Skills = styled.div`
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    height: 88vh;
     transition: 0.25s all ease-out;
     width: 100%;
   }
@@ -38,6 +37,7 @@ const Skills = styled.div`
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin: 2em;
     width: 50%;
   }
 
@@ -53,7 +53,7 @@ const Skills = styled.div`
     color: #5429cf;
     padding: 1.4em 0.9em;
     margin: 0.5em;
-    height: 9em;
+    height: 7em;
     width: 20%;
   }
 
@@ -83,7 +83,7 @@ const Skills = styled.div`
 
     .Skills-Title {
       text-align: center;
-      margin-bottom: 0.8em;
+      margin: 0.8em;
     }
 
     .Icons-Skills {
