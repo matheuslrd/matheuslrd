@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/matheuslrd/static/js/main.83da1b6a.chunk.js",
-    "main.js.map": "/matheuslrd/static/js/main.83da1b6a.chunk.js.map",
+    "main.js": "/matheuslrd/static/js/main.fc867349.chunk.js",
+    "main.js.map": "/matheuslrd/static/js/main.fc867349.chunk.js.map",
     "runtime-main.js": "/matheuslrd/static/js/runtime-main.9f852e87.js",
     "runtime-main.js.map": "/matheuslrd/static/js/runtime-main.9f852e87.js.map",
-    "static/js/2.244a66b9.chunk.js": "/matheuslrd/static/js/2.244a66b9.chunk.js",
-    "static/js/2.244a66b9.chunk.js.map": "/matheuslrd/static/js/2.244a66b9.chunk.js.map",
+    "static/js/2.c2d8143d.chunk.js": "/matheuslrd/static/js/2.c2d8143d.chunk.js",
+    "static/js/2.c2d8143d.chunk.js.map": "/matheuslrd/static/js/2.c2d8143d.chunk.js.map",
     "index.html": "/matheuslrd/index.html",
-    "static/js/2.244a66b9.chunk.js.LICENSE.txt": "/matheuslrd/static/js/2.244a66b9.chunk.js.LICENSE.txt"
+    "static/js/2.c2d8143d.chunk.js.LICENSE.txt": "/matheuslrd/static/js/2.c2d8143d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9f852e87.js",
-    "static/js/2.244a66b9.chunk.js",
-    "static/js/main.83da1b6a.chunk.js"
+    "static/js/2.c2d8143d.chunk.js",
+    "static/js/main.fc867349.chunk.js"
   ]
 }
