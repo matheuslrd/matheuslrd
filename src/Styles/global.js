@@ -14,5 +14,6 @@ export default createGlobalStyle`
     color: ${(props) => props.theme.color.text};
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    min-width: 300px;
   }
 `;
