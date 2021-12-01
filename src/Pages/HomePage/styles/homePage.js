@@ -29,7 +29,6 @@ const HomePage = styled.div`
     background: ${(props) => props.theme.color.secundary};
     color: ${(props) => props.theme.color.text};
     padding: 0 2rem;
-    overflow: hidden;
   }
 
   .luxbar-hamburger span::before, .luxbar-hamburger span::after {
@@ -172,8 +171,8 @@ const HomePage = styled.div`
       display: none;
     }
 
-    .Nav-Bar {
-      display: none;
+    .luxbar-navigation .luxbar-item {
+      margin: 0 auto;
     }
 
     .Main-Content {
