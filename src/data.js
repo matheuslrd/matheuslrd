@@ -30,6 +30,14 @@ const projects = [
     linkWebSite: 'https://cound-tunes.vercel.app/',
     linkGitHub: 'https://github.com/matheuslrd/cound-tunes',
   },
+  {
+    id: 5,
+    title: 'Three Meals',
+    description: `Aplicativo de receitas de comidas e bebidas, desenvolvido em React, utilizando
+    React Router, React Icons, Hooks, Context.`,
+    linkWebSite: 'https://three-meals.vercel.app/',
+    linkGitHub: 'https://github.com/matheuslrd/three-meals',
+  },
 ];
 
 export default projects;
