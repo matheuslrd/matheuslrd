@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useContext } from 'react';
 
-import { BsFillSunFill } from 'react-icons/bs';
+import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs';
 
 import Switch from 'react-switch';
 
@@ -32,7 +32,7 @@ export default function HeaderLuxBar() {
               htmlFor="luxbar-checkbox"
             >
               {' '}
-              <span />
+              <span className="hamburguer" />
               {' '}
 
             </label>
@@ -41,10 +41,17 @@ export default function HeaderLuxBar() {
             <Switch
               activeBoxShadow="none"
               checked={theme}
-              checkedIcon={(
+              uncheckedIcon={(
                 <BsFillSunFill
                   color="#fff"
                   size="0.9em"
+                  className="Light-Theme-Icon"
+                />
+              )}
+              checkedIcon={(
+                <BsFillMoonFill
+                  color="#fff"
+                  size="0.8em"
                   className="Light-Theme-Icon"
                 />
               )}

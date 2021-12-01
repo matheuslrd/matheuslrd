@@ -33,8 +33,8 @@ const projects = [
   {
     id: 5,
     title: 'Three Meals',
-    description: `Aplicativo de receitas de comidas e bebidas, desenvolvido em React, utilizando
-    React Router, React Icons, Hooks, Context.`,
+    description: `Aplicativo de receitas, desenvolvido em React, utilizando React Router, React Icons,
+    Hooks, Context.`,
     linkWebSite: 'https://three-meals.vercel.app/',
     linkGitHub: 'https://github.com/matheuslrd/three-meals',
   },
