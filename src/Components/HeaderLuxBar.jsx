@@ -32,7 +32,7 @@ export default function HeaderLuxBar() {
               htmlFor="luxbar-checkbox"
             >
               {' '}
-              <span />
+              <span className="hamburguer" />
               {' '}
 
             </label>

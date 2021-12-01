@@ -32,6 +32,14 @@ const HomePage = styled.div`
     overflow: hidden;
   }
 
+  .luxbar-hamburger span::before, .luxbar-hamburger span::after {
+    background: ${(props) => props.theme.color.text};
+  }
+
+  .luxbar-hamburger span {
+    background: ${(props) => props.theme.color.text};
+  }
+
   .luxbar-item {
     align-items: center;
     display: flex;
