@@ -2,7 +2,9 @@ import React from 'react';
 import {
   FaHtml5, FaCss3Alt, FaReact, FaJs,
 } from 'react-icons/fa';
-import { SiRedux, SiJest, SiVisualstudio } from 'react-icons/si';
+import {
+  SiRedux, SiJest, SiStyledcomponents, SiDocker,
+} from 'react-icons/si';
 
 import AbstractSkills from './components/AbstractSkills';
 import SkillCard from './components/SkillCard';
@@ -25,7 +27,8 @@ function Skills() {
             <SkillCard skillIcon={<FaJs size="3.5em" />} textSkill="JS" />
             <SkillCard skillIcon={<SiRedux size="3.5em" />} textSkill="Redux" />
             <SkillCard skillIcon={<SiJest size="3.5em" />} textSkill="Jest" />
-            <SkillCard skillIcon={<SiVisualstudio size="3.5em" />} textSkill="VSCode" />
+            <SkillCard skillIcon={<SiStyledcomponents size="3.5em" />} textSkill="Styled Components" />
+            <SkillCard skillIcon={<SiDocker size="3.5em" />} textSkill="Docker" />
           </section>
         </div>
 
