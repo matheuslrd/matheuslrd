@@ -26,7 +26,7 @@ const projects = [
   {
     id: 4,
     title: 'Cound Tunes',
-    description: 'Aplicativo de músicas desenvolvido utilizando React e requisições a API.',
+    description: 'Aplicativo de músicas desenvolvido utilizando React e requisições a API iTunes.',
     linkWebSite: 'https://cound-tunes.vercel.app/',
     linkGitHub: 'https://github.com/matheuslrd/cound-tunes',
   },
