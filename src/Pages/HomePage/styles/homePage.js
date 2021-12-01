@@ -48,33 +48,11 @@ const HomePage = styled.div`
     font-size: 1.2em;
   }
 
-  .Nav-Bar {
-    width: 39%;
-  }
-
-  .Nav-Bar ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    width: 100%;
-  }
-
   .Light-Theme-Icon {
     margin-left: 0.3em;
     margin-top: 0.1em;
   }
-
-  .Nav-Bar ul a {
-    font-weight: 600;
-    color: ${(props) => props.theme.color.text};
-    text-decoration: none;
-    transition: all 0.1s ease-out;
-  }
-
-  .Nav-Bar ul a:hover {
-    color: #5d2de2;
-  }
-
+  
   /* CONTEÚDO PRINCIPAL */
   .Main-Content {
     display: flex;
