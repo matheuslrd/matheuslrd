@@ -3,7 +3,7 @@ import {
   FaHtml5, FaCss3Alt, FaReact, FaJs,
 } from 'react-icons/fa';
 import {
-  SiRedux, SiJest, SiStyledcomponents, SiDocker,
+  SiRedux, SiJest, SiStyledcomponents, SiDocker, SiGit,
 } from 'react-icons/si';
 
 import AbstractSkills from './components/AbstractSkills';
@@ -29,6 +29,7 @@ function Skills() {
             <SkillCard skillIcon={<SiJest size="3.5em" />} textSkill="Jest" />
             <SkillCard skillIcon={<SiStyledcomponents size="3.5em" />} textSkill="Styled Components" />
             <SkillCard skillIcon={<SiDocker size="3.5em" />} textSkill="Docker" />
+            <SkillCard skillIcon={<SiGit size="3.5em" />} textSkill="Git" />
           </section>
         </div>
 
