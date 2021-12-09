@@ -17,7 +17,7 @@ export default function HeaderLuxBar() {
   }
 
   return (
-    <header id="luxbar" classNameName="luxbar-fixed Header">
+    <header id="luxbar" className="luxbar-fixed">
       <input type="checkbox" className="luxbar-checkbox" id="luxbar-checkbox" />
       <nav className="luxbar-menu luxbar-menu-right luxbar-menu-dark">
         <ul className="luxbar-navigation">
