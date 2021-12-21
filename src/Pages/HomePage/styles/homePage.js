@@ -139,6 +139,11 @@ const HomePage = styled.div`
     background: #dbcd33;
   }
 
+  .Btn-github {
+    margin-bottom: 1em;
+    width: 100%;
+  }
+
   .whats {
     margin-left: 0.3em;
   }

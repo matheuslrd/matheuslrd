@@ -1,19 +1,19 @@
 import React from 'react';
 
-import { FaWhatsapp, FaLinkedin/* , FaGithub */ } from 'react-icons/fa';
+import { FaWhatsapp, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 import Button from '@mui/material/Button';
 
 function ButtonsContact() {
   return (
     <>
-      <a
-        href="https://wa.me/+5551984108411?text=Ol%C3%A1,%20Matheus"
+      {/* <a
+        href=""
         target="_blank"
         rel="noreferrer"
       >
         <button type="button" className="Btn-Contact Btn-Whatsapp">
-          <FaWhatsapp size="1.4em" />
+
           <span className="whats">WhatsApp</span>
         </button>
       </a>
@@ -29,7 +29,7 @@ function ButtonsContact() {
         </button>
       </a>
 
-      {/* <a
+       <a
         href="https://github.com/matheuslrd"
         target="_blank"
         rel="noreferrer"
@@ -40,7 +40,33 @@ function ButtonsContact() {
         </button>
       </a> */}
 
-      <Button variant="contained">
+      <Button
+        className="Btn-github"
+        href="https://wa.me/+5551984108411?text=Ol%C3%A1,%20Matheus"
+        target="_blank"
+        startIcon={<FaWhatsapp size="1.2em" />}
+        variant="contained"
+      >
+        whatsapp
+      </Button>
+
+      <Button
+        className="Btn-github"
+        href="https://www.linkedin.com/in/matheus-szarblewski/"
+        target="_blank"
+        startIcon={<FaLinkedin size="1.2em" />}
+        variant="contained"
+      >
+        linkedin
+      </Button>
+
+      <Button
+        className="Btn-github"
+        href="https://github.com/matheuslrd"
+        target="_blank"
+        startIcon={<FaGithub size="1.2em" />}
+        variant="contained"
+      >
         GitHub
       </Button>
 
