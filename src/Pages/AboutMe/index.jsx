@@ -7,7 +7,6 @@ import AbstractAboutMe from './components/AbstractAboutMe';
 
 import StyledAboutMe from './styles/aboutMe';
 
-// eslint-disable-next-line react/function-component-definition
 function AboutMe() {
   return (
     <StyledAboutMe>

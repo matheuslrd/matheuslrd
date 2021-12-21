@@ -5,7 +5,6 @@ import { BiUpArrowAlt } from 'react-icons/bi';
 
 import StyledFooter from '../Styles/footer';
 
-// eslint-disable-next-line react/function-component-definition
 function Footer() {
   return (
     <StyledFooter>

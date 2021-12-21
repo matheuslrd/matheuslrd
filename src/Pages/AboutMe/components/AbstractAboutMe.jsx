@@ -1,6 +1,5 @@
 import React from 'react';
 
-// eslint-disable-next-line react/function-component-definition
 function AbstractAboutMe() {
   return (
     <>

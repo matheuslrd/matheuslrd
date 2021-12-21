@@ -8,7 +8,6 @@ import ButtonsContact from './components/ButtonsContact';
 
 import StyledHomePage from './styles/homePage';
 
-// eslint-disable-next-line react/function-component-definition
 function HomePage() {
   return (
     <StyledHomePage>

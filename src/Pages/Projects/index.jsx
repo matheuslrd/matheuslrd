@@ -5,7 +5,6 @@ import projects from '../../data';
 
 import StyledProjects from './styles/projects';
 
-// eslint-disable-next-line react/function-component-definition
 function Projects() {
   function renderProjects() {
     return (

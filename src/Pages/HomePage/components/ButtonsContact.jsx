@@ -1,7 +1,9 @@
 import React from 'react';
-import { FaWhatsapp, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-// eslint-disable-next-line react/function-component-definition
+import { FaWhatsapp, FaLinkedin/* , FaGithub */ } from 'react-icons/fa';
+
+import Button from '@mui/material/Button';
+
 function ButtonsContact() {
   return (
     <>
@@ -27,7 +29,7 @@ function ButtonsContact() {
         </button>
       </a>
 
-      <a
+      {/* <a
         href="https://github.com/matheuslrd"
         target="_blank"
         rel="noreferrer"
@@ -36,7 +38,11 @@ function ButtonsContact() {
           <FaGithub size="1.4em" />
           <span className="whats">GitHub</span>
         </button>
-      </a>
+      </a> */}
+
+      <Button variant="contained">
+        GitHub
+      </Button>
 
     </>
   );

@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { FaGithub } from 'react-icons/fa';
 import { SiSitepoint } from 'react-icons/si';
 
-// eslint-disable-next-line react/function-component-definition
 function ProjectCard(props) {
   const {
     description, linkWebSite, linkGitHub, title,
