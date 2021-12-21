@@ -126,8 +126,8 @@ const HomePage = styled.div`
     display: block;
     width: 15px;
     height: 15px;
-    border-bottom: 5px solid #5d2de2;
-    border-right: 5px solid #5d2de2;
+    border-bottom: 3px solid #5d2de2;
+    border-right: 3px solid #5d2de2;
     transform: rotate(45deg);
     animation: animate 2s infinite;
   }
