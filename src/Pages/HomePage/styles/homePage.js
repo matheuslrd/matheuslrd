@@ -85,8 +85,10 @@ const HomePage = styled.div`
 
   .buttons-contact {
     padding-top: 0.3rem;
+    
+
     .btn-github {
-      margin-left: 0.2em;
+      margin-left: 0.4em;
     }
   }
 

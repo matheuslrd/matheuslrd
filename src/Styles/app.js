@@ -8,11 +8,15 @@ const App = styled.div`
   .btn-contact {
     background: #5d2de2;
     border-radius: 3px;
+    height: 3em;
+    font-weight: 600;
+    transition: 0.2s all ease-out;
+    padding: 0 2em;
     width: fit-content;
     
     &:hover {
       background: #5d2de2;
-      filter: brightness(0.9);
+      filter: brightness(0.85);
     }
   }
 `;
