@@ -17,7 +17,9 @@ function HomePage() {
 
         <main className="Main-Content">
           <section className="Contacte-Me-Container">
-            <ContactMe />
+            <div className="summary-container">
+              <ContactMe />
+            </div>
           </section>
           <section className="illustration-dev-container">
             <img

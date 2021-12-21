@@ -24,15 +24,13 @@ function App() {
     // eslint-disable-next-line react/jsx-filename-extension
     <ThemeProvider theme={theme ? darkTheme : lightTheme}>
       <StyledApp>
-        <main className="App">
-          <GlobalStyle />
-          <HomePage />
-          <AboutMe />
-          <Projects />
-          <Services />
-          <Skills />
-          <Footer />
-        </main>
+        <GlobalStyle />
+        <HomePage />
+        <AboutMe />
+        <Projects />
+        <Services />
+        <Skills />
+        <Footer />
       </StyledApp>
     </ThemeProvider>
   );

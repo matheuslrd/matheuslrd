@@ -75,12 +75,19 @@ const HomePage = styled.div`
     flex: 53;
   }
 
-  .Introduction {
+  .summary-about-me {
     font-size: 1.5em;
   }
 
   .Student-Web {
     font-weight: 500;
+  }
+
+  .buttons-contact {
+    padding-top: 0.3rem;
+    .btn-github {
+      margin-left: 0.2em;
+    }
   }
 
   .Main-Content .illustration-dev-container {
@@ -137,26 +144,6 @@ const HomePage = styled.div`
     .Main-Content .Contacte-Me-Container {
       height: 30%;
       text-align: center;
-      width: 80%;
-    }
-
-    .Blob-svg {
-      height: 50%!important;
-      width: 100%!important;
-    }
-
-    .Main-Content .Blob {
-      display: none;
-      height: 100%;
-      width: 100%;
-    }
-
-    .Container-Buttons-Contact {
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: space-around;
-      margin-left: 0;
-      height: 30%;
       width: 80%;
     }
 
