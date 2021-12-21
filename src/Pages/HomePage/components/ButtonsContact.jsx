@@ -2,18 +2,16 @@ import React from 'react';
 
 import { FaWhatsapp, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-import Button from '@mui/material/Button';
-
 function ButtonsContact() {
   return (
     <>
-      {/* <a
-        href=""
+      <a
+        href="https://wa.me/+5551984108411?text=Ol%C3%A1,%20Matheus"
         target="_blank"
         rel="noreferrer"
       >
         <button type="button" className="Btn-Contact Btn-Whatsapp">
-
+          <FaWhatsapp size="1.4em" />
           <span className="whats">WhatsApp</span>
         </button>
       </a>
@@ -29,7 +27,7 @@ function ButtonsContact() {
         </button>
       </a>
 
-       <a
+      <a
         href="https://github.com/matheuslrd"
         target="_blank"
         rel="noreferrer"
@@ -38,8 +36,8 @@ function ButtonsContact() {
           <FaGithub size="1.4em" />
           <span className="whats">GitHub</span>
         </button>
-      </a> */}
-
+      </a>
+      {/*
       <Button
         className="Btn-github"
         href="https://wa.me/+5551984108411?text=Ol%C3%A1,%20Matheus"
@@ -69,7 +67,7 @@ function ButtonsContact() {
       >
         GitHub
       </Button>
-
+ */}
     </>
   );
 }
