@@ -69,10 +69,10 @@ const HomePage = styled.div`
   }
 
   .Main-Content .Contacte-Me-Container {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 55%;
+    flex: 53;
   }
 
   .Introduction {
@@ -83,69 +83,15 @@ const HomePage = styled.div`
     font-weight: 500;
   }
 
-  .Main-Content .Blob-svg {
+  .Main-Content .illustration-dev-container {
     align-items: center;
     display: flex;
-    height: 100%;
     justify-content: center;
-    width: 45%;
+    flex: 47;
   }
 
-  .Main-Content .Blob {
-    display: flex;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    z-index: 0;
-  }
-
-  .Container-Buttons-Contact {
-    margin-top: 0.5rem;
-    margin-left: -10rem;
-    position: absolute;
-    width: 15%;
-  }
-
-  .Btn-Contact {
-    align-items: center;
-    background: #e3d42d;
-    border: none;
-    border-radius: 0.3em;
-    color: #202024;
-    cursor: pointer;
-    display: flex;
-    font-size: 1em;
-    font-weight: 600;
-    height: 2.5em;
-    justify-content: center;
-    margin-bottom: 1em;
-    outline: none;
-    width: 100%;
-  }
-
-  .Btn-Contact:hover {
-    background: #ffef3c;
-  }
-
-  .Btn-Whatsapp {
-    background: #dbcd33;
-  }
-
-  .Btn-LinkedIn {
-    background: #e3d42d;
-  }
-
-  .Btn-GitHub {
-    background: #dbcd33;
-  }
-
-  .Btn-github {
-    margin-bottom: 1em;
-    width: 100%;
-  }
-
-  .whats {
-    margin-left: 0.3em;
+  .illustration-dev {
+    width: 70%;
   }
 
   .Scrool-Text {
