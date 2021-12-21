@@ -8,6 +8,7 @@ const App = styled.div`
   .btn-contact {
     background: #5d2de2;
     border-radius: 3px;
+    color: #fdfdfd;
     height: 3em;
     font-weight: 600;
     transition: 0.2s all ease-out;

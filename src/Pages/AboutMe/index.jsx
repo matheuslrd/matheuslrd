@@ -2,6 +2,7 @@ import React from 'react';
 import {
   FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaLinkedin,
 } from 'react-icons/fa';
+import Button from '@mui/material/Button';
 
 import AbstractAboutMe from './components/AbstractAboutMe';
 
@@ -35,19 +36,14 @@ function AboutMe() {
             </section>
 
             <section className="Buttons-About-Me">
-              <a
+              <Button
+                className="btn-contact"
                 href="https://www.linkedin.com/in/matheus-szarblewski/"
                 target="_blank"
-                rel="noreferrer"
+                startIcon={<FaLinkedin size="1.2em" />}
               >
-                <button type="button" className="About-Me-Btn-LinkedIn Btn-Contact">
-                  <FaLinkedin size="1.4em" />
-                  <span className="whats linkedin-title">
-                    LinkedIn
-                  </span>
-                </button>
-              </a>
-
+                Linkedin
+              </Button>
             </section>
           </div>
         </article>
