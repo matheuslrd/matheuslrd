@@ -12,7 +12,7 @@ const App = styled.div`
     height: 3em;
     font-weight: 600;
     transition: 0.2s all ease-out;
-    padding: 0 2em;
+    padding: 1.2em 2em;
     width: fit-content;
     
     &:hover {

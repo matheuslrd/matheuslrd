@@ -88,7 +88,7 @@ const AboutMe = styled.div`
       width: 100%;
     }
 
-    .About-Me-Btn-LinkedIn {
+    .btn-contact {
       width: 100%;
     }
   }
