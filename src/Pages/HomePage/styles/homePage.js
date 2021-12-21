@@ -85,7 +85,6 @@ const HomePage = styled.div`
 
   .buttons-contact {
     padding-top: 0.3rem;
-    
 
     .btn-github {
       margin-left: 0.4em;
@@ -99,6 +98,14 @@ const HomePage = styled.div`
     flex: 47;
   }
 
+  .buttons-contact {
+    padding-top: 0.3rem;
+
+    .btn-github {
+      margin-left: 0.4em;
+    }
+  }
+
   .illustration-dev {
     width: 70%;
   }
@@ -108,14 +115,43 @@ const HomePage = styled.div`
     margin-top: -1em;
   }
 
-  .seta {
-    align-items: center;
-    color: #5d2de2;
-    display: flex;
-    flex-flow: column nowrap;
-    height: 5.5em;
-    justify-content: center;
-    width: 100%;
+  .arrow {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .arrow span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 5px solid #5d2de2;
+    border-right: 5px solid #5d2de2;
+    transform: rotate(45deg);
+    animation: animate 2s infinite;
+  }
+
+  .arrow span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+
+  .arrow span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+
+  @keyframes animate {
+    0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+    }
   }
 
   .Mouse-Seta {
@@ -147,6 +183,21 @@ const HomePage = styled.div`
       height: 30%;
       text-align: center;
       width: 80%;
+    }
+
+    .buttons-contact {
+      .btn-github {
+        margin-left: 0;
+      }
+    }
+
+    .btn-contact {
+      margin-top: 1em;
+      width: 100%;
+    }
+
+    .Main-Content .illustration-dev-container {
+      display: none;
     }
 
     .Btn-Contact {

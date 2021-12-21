@@ -6,6 +6,7 @@ import { FaWhatsapp, FaGithub } from 'react-icons/fa';
 function ContactMe() {
   return (
     <>
+
       <div className="summary-about-me">
         Olá, eu sou
         <br />
@@ -14,6 +15,7 @@ function ContactMe() {
           Estudante de Desenvolvimento Web.
         </span>
       </div>
+
       <div className="buttons-contact">
 
         <Button
@@ -35,6 +37,7 @@ function ContactMe() {
         >
           GitHub
         </Button>
+
       </div>
     </>
   );
