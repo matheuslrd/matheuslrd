@@ -31,8 +31,12 @@ const Projects = styled.div`
     padding: 2em 1.5em;
     font-size: 0.9em;
     border-radius: 0.3em;
-    height: 15em;
+    min-height: 15em;
     width: 30%;
+
+    .project-info-container {
+      margin-bottom: 2em;
+    }
   }
 
   .Title-Project {
@@ -102,7 +106,8 @@ const Projects = styled.div`
     .Project {
       display: flex;
       font-size: 0.7em;
-      height: 12em;
+      min-height: 0;
+      height: 11em;
       padding: 1.3em;
       width: 95%;
 
@@ -113,6 +118,7 @@ const Projects = styled.div`
         flex: 6;
         text-align: justify;
         padding-right: 1em;
+        margin-bottom: 0;
       }
 
       .Buttons-Project {

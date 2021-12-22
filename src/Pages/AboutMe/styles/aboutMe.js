@@ -58,6 +58,7 @@ const AboutMe = styled.div`
   .btn-contact {
     margin-top: 3em;
     padding: 2em 0;
+    width: 30%;
   }
 
   @media screen and (max-width: 768px) {
