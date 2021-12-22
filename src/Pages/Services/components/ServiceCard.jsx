@@ -4,7 +4,11 @@ import PropsTypes from 'prop-types';
 
 function ServiceCard({ iconService, titleService, textService }) {
   return (
-    <div className="Service">
+    <div
+      className="Service"
+      data-aos="zoom-in"
+      data-aos-delay="50"
+    >
       <section className="Icon-Service">
         { iconService }
       </section>

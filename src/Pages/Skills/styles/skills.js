@@ -42,15 +42,15 @@ const Skills = styled.div`
   }
 
   .Skill-Card {
+    align-items: center;
+    background: ${(props) => props.theme.color.secundary};
     border: 4px solid ${(props) => props.theme.color.secundary};
     border-radius: 0.3em;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.20);
-    background: ${(props) => props.theme.color.secundary};
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);
+    color: #5429cf;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
-    color: #5429cf;
     padding: 1.4em 0.9em;
     margin: 0.5em;
     height: 7em;

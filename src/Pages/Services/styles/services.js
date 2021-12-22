@@ -23,7 +23,7 @@ const Services = styled.div`
     display: flex;
     font-size: 1em;
     flex-flow: row nowrap;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     width: 80%;
   }
 
@@ -52,6 +52,10 @@ const Services = styled.div`
   .Text-Service {
     font-weight: 600;
     line-height: 1.5em;
+  }
+
+  #Skills {
+    margin-bottom: 5em;
   }
 
   @media screen and (max-width: 768px) {

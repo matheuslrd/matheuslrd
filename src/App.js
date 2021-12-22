@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
-
 import { ThemeProvider } from 'styled-components';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import { MyContext } from './Context/MyProvider';
 
@@ -16,9 +17,9 @@ import StyledApp from './Styles/app';
 
 import { darkTheme, lightTheme } from './Styles/Theme';
 
-// eslint-disable-next-line react/function-component-definition
 function App() {
   const { theme } = useContext(MyContext);
+  AOS.init();
 
   return (
     // eslint-disable-next-line react/jsx-filename-extension

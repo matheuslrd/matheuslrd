@@ -15,12 +15,15 @@ function HomePage() {
         <HeaderLuxBar />
 
         <main className="Main-Content">
-          <section className="Contacte-Me-Container">
+          <section className="Contacte-Me-Container" data-aos="fade-right">
             <div className="summary-container">
               <ContactMe />
             </div>
           </section>
-          <section className="illustration-dev-container">
+          <section
+            className="illustration-dev-container"
+            data-aos="fade-left"
+          >
             <img
               className="illustration-dev"
               src={devIllustration}
@@ -29,8 +32,11 @@ function HomePage() {
           </section>
         </main>
 
-        <a href="#About-Me">
-          <div className="arrow" id="About-Me">
+        <a href="#About-Me" data-aos="fade-up">
+          <div
+            className="arrow"
+            id="About-Me"
+          >
             <ArrowDown />
           </div>
         </a>

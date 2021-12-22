@@ -5,6 +5,8 @@ function SkillCard({ skillIcon, textSkill }) {
   return (
     <div
       className="Skill-Card"
+      data-aos="zoom-in"
+      data-aos-delay="100"
     >
       { skillIcon }
       <p className="Text-Skill">

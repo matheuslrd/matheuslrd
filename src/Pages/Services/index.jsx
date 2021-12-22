@@ -11,7 +11,11 @@ function Services() {
   return (
     <StyledServices>
       <section id="Services-Page">
-        <h1 className="Services-Title">
+        <h1
+          className="Services-Title"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+        >
           Serviços
         </h1>
         <div className="Services-Container-Center">

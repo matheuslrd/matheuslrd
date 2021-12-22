@@ -64,7 +64,7 @@ export default function HeaderLuxBar() {
             />
           </li>
           <li className="luxbar-item">
-            <a href="#Arrow">
+            <a href="#About-Me">
               Sobre Mim
             </a>
           </li>

@@ -13,7 +13,7 @@ function AboutMe() {
     <StyledAboutMe>
       <section id="About-Me-Page">
 
-        <section className="Avatar-Matheus">
+        <section className="Avatar-Matheus" data-aos="fade-right">
           <div className="Icons">
             <FaHtml5 size="4em" />
             <FaJsSquare size="4em" />
@@ -29,7 +29,7 @@ function AboutMe() {
           </div>
         </section>
 
-        <article className="About-Me-Container">
+        <article className="About-Me-Container" data-aos="fade-left">
           <div className="About-Me-Center">
             <section className="Abstract-About-Me">
               <AbstractAboutMe />

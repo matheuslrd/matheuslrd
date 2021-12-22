@@ -12,9 +12,10 @@ function Projects() {
         title, description, linkWebSite, linkGitHub, id,
       }) => (
         <ProjectCard
+          description={description}
+          dataAos="zoom-in"
           key={id}
           title={title}
-          description={description}
           linkWebSite={linkWebSite}
           linkGitHub={linkGitHub}
         />
@@ -24,7 +25,13 @@ function Projects() {
   return (
     <StyledProjects>
       <section id="Projects">
-        <h2 className="Title-Projects"> Projetos </h2>
+        <h2
+          className="Title-Projects"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+        >
+          Projetos
+        </h2>
         <div className="Projects-Container">
           { renderProjects() }
         </div>
@@ -35,6 +42,8 @@ function Projects() {
             target="_blank"
             rel="noreferrer"
             id="Services"
+            data-aos="zoom-in"
+            data-aos-delay="50"
           >
             Repositórios no GitHub
           </a>
