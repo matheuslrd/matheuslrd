@@ -32,7 +32,7 @@ function HomePage() {
           </section>
         </main>
 
-        <a href="#About-Me" data-aos="fade-up">
+        <a href="#About-Me">
           <div
             className="arrow"
             id="About-Me"
