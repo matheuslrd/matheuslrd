@@ -10,6 +10,7 @@ const App = styled.div`
     border-radius: 3px;
     color: #fdfdfd;
     height: 3em;
+    font-size: 0.8em;
     font-weight: 600;
     transition: 0.2s all ease-out;
     padding: 1.2em 2em;

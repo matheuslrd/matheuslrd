@@ -20,33 +20,11 @@ function ProjectCard(props) {
         { description }
       </p>
       <div className="Buttons-Project">
-        {/* <a
-          className="link-btn-project"
-          href={linkWebSite}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button type="button" className="Btn-Project-Links">
-            <SiSitepoint />
-            <span className="Btn-Project-Title">WebSite</span>
-          </button>
-        </a>
-        <a
-          className="link-btn-project"
-          href={linkGitHub}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button type="button" className="Btn-Project-Links">
-            <FaGithub />
-            <span className="Btn-Project-Title"> GitHub </span>
-          </button>
-        </a> */}
         <Button
           className="btn-contact"
           href={linkWebSite}
           target="_blank"
-          startIcon={<SiSitepoint />}
+          startIcon={<SiSitepoint size="0.8em" />}
         >
           WebSite
         </Button>
@@ -55,7 +33,7 @@ function ProjectCard(props) {
           className="btn-contact"
           href={linkGitHub}
           target="_blank"
-          startIcon={<FaGithub />}
+          startIcon={<FaGithub size="0.8em" />}
         >
           GitHub
         </Button>

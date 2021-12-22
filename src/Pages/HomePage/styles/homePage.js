@@ -117,15 +117,15 @@ const HomePage = styled.div`
 
   .arrow {
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
   }
 
   .arrow span {
     display: block;
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     border-bottom: 3px solid #5d2de2;
     border-right: 3px solid #5d2de2;
     transform: rotate(45deg);

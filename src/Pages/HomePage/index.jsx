@@ -29,8 +29,8 @@ function HomePage() {
           </section>
         </main>
 
-        <a href="#Arrow">
-          <div className="arrow" id="Arrow">
+        <a href="#About-Me">
+          <div className="arrow" id="About-Me">
             <ArrowDown />
           </div>
         </a>

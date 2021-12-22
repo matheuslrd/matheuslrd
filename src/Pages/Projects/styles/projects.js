@@ -55,8 +55,9 @@ const Projects = styled.div`
     width: 100%;
 
     .btn-contact {
-      font-size: 0.9em;
-      height: 2.3em;
+      font-size: 0.8em;
+      height: 2.8em;
+      width: 45%;
     }
   }
 
