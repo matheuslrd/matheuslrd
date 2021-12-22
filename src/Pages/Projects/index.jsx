@@ -43,7 +43,7 @@ function Projects() {
             rel="noreferrer"
             id="Services"
             data-aos="zoom-in"
-            data-aos-delay="50"
+            data-aos-delay="10"
           >
             Repositórios no GitHub
           </a>

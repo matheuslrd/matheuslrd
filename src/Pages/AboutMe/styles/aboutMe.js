@@ -57,6 +57,8 @@ const AboutMe = styled.div`
 
   .btn-contact {
     margin-top: 3em;
+    padding: 2em 0;
+    width: 30%;
   }
 
   @media screen and (max-width: 768px) {
@@ -88,8 +90,10 @@ const AboutMe = styled.div`
       width: 100%;
     }
 
-    .btn-contact {
-      width: 100%;
+    .Buttons-About-Me {
+      .btn-contact {
+        width: 100%;
+      }
     }
   }
 `;

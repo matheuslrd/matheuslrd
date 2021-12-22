@@ -183,9 +183,20 @@ const HomePage = styled.div`
       height: 30%;
       text-align: center;
       width: 80%;
+
+      .summary-container {
+        margin-top: 5em;
+      }
     }
 
     .buttons-contact {
+      display: flex;
+      flex-flow: column nowrap;
+
+      .btn-contact {
+        width: 100%;
+      }
+
       .btn-github {
         margin-left: 0;
       }

@@ -19,7 +19,11 @@ function Skills() {
         <div className="Skills-Container">
           <AbstractSkills />
 
-          <section className="Icons-Skills">
+          <section
+            className="Icons-Skills"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
             <SkillCard skillIcon={<FaHtml5 size="3.3em" />} textSkill="HTML5" />
             <SkillCard skillIcon={<FaCss3Alt size="3.3em" />} textSkill="CSS3" />
             <SkillCard skillIcon={<FaReact size="3.3em" />} textSkill="React" />

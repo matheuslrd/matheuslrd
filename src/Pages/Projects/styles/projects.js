@@ -31,8 +31,12 @@ const Projects = styled.div`
     padding: 2em 1.5em;
     font-size: 0.9em;
     border-radius: 0.3em;
-    height: 15em;
+    min-height: 15em;
     width: 30%;
+
+    .project-info-container {
+      margin-bottom: 2em;
+    }
   }
 
   .Title-Project {
@@ -91,7 +95,7 @@ const Projects = styled.div`
   @media screen and (max-width: 768px) {
     .Projects-Container {
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: column nowrap;
       width: 98%;
     }
 
@@ -100,15 +104,35 @@ const Projects = styled.div`
     }
 
     .Project {
-      font-size: 0.7em;
-      height: 17em;
-      padding: 1.3em;
-      width: 43%;
-    }
-
-    .Buttons-Project {
       display: flex;
-      flex-flow: column nowrap;
+      font-size: 0.7em;
+      min-height: 0;
+      height: 11em;
+      padding: 1.3em;
+      width: 95%;
+
+      .project-info-container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        flex: 6;
+        text-align: justify;
+        padding-right: 1em;
+        margin-bottom: 0;
+      }
+
+      .Buttons-Project {
+        display: flex;
+        flex-flow: column nowrap;
+        flex: 4;
+        justify-content: space-around;
+        height: 100%;
+
+        .btn-contact {
+          height: 3.5em;
+          width: 100%;
+        }
+      }
     }
 
     .Abstract-Project {
