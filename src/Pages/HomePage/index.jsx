@@ -15,14 +15,14 @@ function HomePage() {
         <HeaderLuxBar />
 
         <main className="Main-Content">
-          <section className="Contacte-Me-Container" data-aos="fade-right">
+          <section className="Contacte-Me-Container" data-aos="zoom-in">
             <div className="summary-container">
               <ContactMe />
             </div>
           </section>
           <section
             className="illustration-dev-container"
-            data-aos="fade-left"
+            data-aos="zoom-in"
           >
             <img
               className="illustration-dev"
