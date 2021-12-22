@@ -10,13 +10,12 @@ function Footer() {
     <StyledFooter>
       <footer className="Footer">
 
-        <div className="Footer-Icons-Container">
+        <div className="Footer-Icons-Container" data-aos="zoom-in">
           <div className="Icons-Footer">
             <a
               href="https://www.linkedin.com/in/matheus-szarblewski/"
               target="_blank"
               rel="noreferrer"
-              data-aos="zoom-in"
             >
               <FaLinkedinIn className="Icon-Footer" size="1.7em" />
             </a>
@@ -24,7 +23,6 @@ function Footer() {
               href="https://github.com/matheuslrd"
               target="_blank"
               rel="noreferrer"
-              data-aos="zoom-in"
             >
               <FaGithub className="Icon-Footer" size="1.7em" />
             </a>
@@ -32,7 +30,6 @@ function Footer() {
               href="https://www.instagram.com/matheuslrd_/"
               target="_blank"
               rel="noreferrer"
-              data-aos="zoom-in"
             >
               <FaInstagram className="Icon-Footer" size="1.7em" />
             </a>
