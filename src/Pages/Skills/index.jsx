@@ -11,7 +11,6 @@ import SkillCard from './components/SkillCard';
 
 import StyledSkills from './styles/skills';
 
-// eslint-disable-next-line react/function-component-definition
 function Skills() {
   return (
     <StyledSkills>

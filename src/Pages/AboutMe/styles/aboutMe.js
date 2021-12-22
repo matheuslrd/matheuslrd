@@ -44,45 +44,22 @@ const AboutMe = styled.div`
 
   .Abstract-About-Me {
     text-align: start;
+
+    h2 {
+      font-weight: 500;
+    }
+
+    p {
+      font-weight: 400;
+      line-height: 1.5em;
+    }
   }
 
-  .Abstract-About-Me h2 {
-    font-weight: 500;
-  }
-
-  .Abstract-About-Me p {
-    font-weight: 400;
-    line-height: 1.5em;
-  }
-
-  .About-Me-Btn-LinkedIn {
-    align-items: center;
-    background: #5d2de2;
-    border: none;
-    border-radius: 0.3em;
-    color: #fdfdfd;
-    cursor: pointer;
-    display: flex;
-    font-size: 1em;
-    font-weight: 600;
-    height: 3em;
-    outline: none;
-    justify-content: center;
-    margin: 3em 0;
-    transition: 0.1s all ease-out;
-    width: 30%;
-  }
-
-  .About-Me-Btn-LinkedIn:hover {
-    background: #351980;
-  }
-
-  .linkedin-title {
-    margin-left: 0.3em;
+  .btn-contact {
+    margin-top: 3em;
   }
 
   @media screen and (max-width: 768px) {
-    /*About Me Page*/
     #About-Me-Page {
       align-items: center;
       display: flex;
@@ -111,7 +88,7 @@ const AboutMe = styled.div`
       width: 100%;
     }
 
-    .About-Me-Btn-LinkedIn {
+    .btn-contact {
       width: 100%;
     }
   }

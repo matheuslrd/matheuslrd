@@ -53,25 +53,16 @@ const Projects = styled.div`
     justify-content: space-between;
     height: 25%;
     width: 100%;
+
+    .btn-contact {
+      font-size: 0.8em;
+      height: 2.8em;
+      width: 45%;
+    }
   }
 
   .link-btn-project {
     width: 45%;
-  }
-
-  .Btn-Project-Links {
-    align-items: center;
-    background: #5929cf;
-    border: none;
-    border-radius: 0.3em;
-    color: #fdfdfd;
-    cursor: pointer;
-    display: flex;
-    height: 2.3em;
-    justify-content: center;
-    outline: none;
-    transition: 0.1s all ease-out;
-    width: 100%;
   }
 
   .Btn-Project-Links:hover {

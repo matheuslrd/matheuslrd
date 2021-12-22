@@ -1,7 +1,6 @@
 import React from 'react';
 import PropsTypes from 'prop-types';
 
-// eslint-disable-next-line react/function-component-definition
 function SkillCard({ skillIcon, textSkill }) {
   return (
     <div

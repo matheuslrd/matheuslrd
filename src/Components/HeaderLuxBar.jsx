@@ -7,12 +7,11 @@ import Switch from 'react-switch';
 
 import { MyContext } from '../Context/MyProvider';
 
-// eslint-disable-next-line react/function-component-definition
 export default function HeaderLuxBar() {
   const { theme, setTheme } = useContext(MyContext);
 
   function changeTheme() {
-    setTheme(!theme);
+    setTheme((prevTheme) => !prevTheme);
     localStorage.setItem('theme', !theme);
   }
 
@@ -65,7 +64,7 @@ export default function HeaderLuxBar() {
             />
           </li>
           <li className="luxbar-item">
-            <a href="#About-Me">
+            <a href="#Arrow">
               Sobre Mim
             </a>
           </li>

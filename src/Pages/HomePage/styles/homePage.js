@@ -69,13 +69,13 @@ const HomePage = styled.div`
   }
 
   .Main-Content .Contacte-Me-Container {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 55%;
+    flex: 53;
   }
 
-  .Introduction {
+  .summary-about-me {
     font-size: 1.5em;
   }
 
@@ -83,64 +83,31 @@ const HomePage = styled.div`
     font-weight: 500;
   }
 
-  .Main-Content .Blob-svg {
+  .buttons-contact {
+    padding-top: 0.3rem;
+
+    .btn-github {
+      margin-left: 0.4em;
+    }
+  }
+
+  .Main-Content .illustration-dev-container {
     align-items: center;
     display: flex;
-    height: 100%;
     justify-content: center;
-    width: 45%;
+    flex: 47;
   }
 
-  .Main-Content .Blob {
-    display: flex;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    z-index: 0;
+  .buttons-contact {
+    padding-top: 1rem;
+
+    .btn-github {
+      margin-left: 0.4em;
+    }
   }
 
-  .Container-Buttons-Contact {
-    margin-top: 0.5rem;
-    margin-left: -10rem;
-    position: absolute;
-    width: 15%;
-  }
-
-  .Btn-Contact {
-    align-items: center;
-    background: #e3d42d;
-    border: none;
-    border-radius: 0.3em;
-    color: #202024;
-    cursor: pointer;
-    display: flex;
-    font-size: 1em;
-    font-weight: 600;
-    height: 2.5em;
-    justify-content: center;
-    margin-bottom: 1em;
-    outline: none;
-    width: 100%;
-  }
-
-  .Btn-Contact:hover {
-    background: #ffef3c;
-  }
-
-  .Btn-Whatsapp {
-    background: #dbcd33;
-  }
-
-  .Btn-LinkedIn {
-    background: #e3d42d;
-  }
-
-  .Btn-GitHub {
-    background: #dbcd33;
-  }
-
-  .whats {
-    margin-left: 0.3em;
+  .illustration-dev {
+    width: 70%;
   }
 
   .Scrool-Text {
@@ -148,14 +115,43 @@ const HomePage = styled.div`
     margin-top: -1em;
   }
 
-  .seta {
-    align-items: center;
-    color: #5d2de2;
-    display: flex;
-    flex-flow: column nowrap;
-    height: 5.5em;
-    justify-content: center;
-    width: 100%;
+  .arrow {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .arrow span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 3px solid #5d2de2;
+    border-right: 3px solid #5d2de2;
+    transform: rotate(45deg);
+    animation: animate 2s infinite;
+  }
+
+  .arrow span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+
+  .arrow span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+
+  @keyframes animate {
+    0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+    }
   }
 
   .Mouse-Seta {
@@ -189,24 +185,19 @@ const HomePage = styled.div`
       width: 80%;
     }
 
-    .Blob-svg {
-      height: 50%!important;
-      width: 100%!important;
+    .buttons-contact {
+      .btn-github {
+        margin-left: 0;
+      }
     }
 
-    .Main-Content .Blob {
-      display: none;
-      height: 100%;
+    .btn-contact {
+      margin-top: 1em;
       width: 100%;
     }
 
-    .Container-Buttons-Contact {
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: space-around;
-      margin-left: 0;
-      height: 30%;
-      width: 80%;
+    .Main-Content .illustration-dev-container {
+      display: none;
     }
 
     .Btn-Contact {

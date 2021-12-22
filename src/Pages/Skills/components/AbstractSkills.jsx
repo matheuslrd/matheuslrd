@@ -1,6 +1,5 @@
 import React from 'react';
 
-// eslint-disable-next-line react/function-component-definition
 function AbstractSkills() {
   return (
     <section className="Abstract-Skills">
@@ -10,7 +9,7 @@ function AbstractSkills() {
         Jest, RTL entre outras tecnologias. Além de aprimorar diariamente minhas softskills.
         <br />
         <br />
-        Atualmente aprimoro meus conhecimentos em React e suas bibliotecas como Redux.
+        Atualmente estudo o mundo do back end e aprimoro meus conhecimentos em UX/UI.
       </p>
     </section>
   );
