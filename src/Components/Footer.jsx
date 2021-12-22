@@ -16,7 +16,7 @@ function Footer() {
               href="https://www.linkedin.com/in/matheus-szarblewski/"
               target="_blank"
               rel="noreferrer"
-              data-aos="fade-up"
+              data-aos="zoom-in"
             >
               <FaLinkedinIn className="Icon-Footer" size="1.7em" />
             </a>
@@ -24,7 +24,7 @@ function Footer() {
               href="https://github.com/matheuslrd"
               target="_blank"
               rel="noreferrer"
-              data-aos="fade-up"
+              data-aos="zoom-in"
             >
               <FaGithub className="Icon-Footer" size="1.7em" />
             </a>
@@ -32,14 +32,14 @@ function Footer() {
               href="https://www.instagram.com/matheuslrd_/"
               target="_blank"
               rel="noreferrer"
-              data-aos="fade-up"
+              data-aos="zoom-in"
             >
               <FaInstagram className="Icon-Footer" size="1.7em" />
             </a>
           </div>
         </div>
 
-        <div className="Icon-Back-To-Home" data-aos="fade-up">
+        <div className="Icon-Back-To-Home" data-aos="zoom-in">
           <a href="#Home-Page">
             <BiUpArrowAlt className="Back-To-Home" size="2.5em" />
           </a>
