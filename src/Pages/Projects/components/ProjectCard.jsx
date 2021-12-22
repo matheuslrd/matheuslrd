@@ -15,15 +15,18 @@ function ProjectCard(props) {
     <div
       className="Project"
       data-aos={dataAos}
-      data-aos-delay="100"
+      data-aos-delay="80"
       data-aos-duration="600"
     >
-      <h3 className="Title-Project">
-        { title }
-      </h3>
-      <p className="Abstract-Project">
-        { description }
-      </p>
+      <div className="project-info-container">
+        <h3 className="Title-Project">
+          { title }
+        </h3>
+        <p className="Abstract-Project">
+          { description }
+        </p>
+      </div>
+
       <div className="Buttons-Project">
         <Button
           className="btn-contact"
