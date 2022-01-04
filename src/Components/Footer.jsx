@@ -13,7 +13,7 @@ function Footer() {
         <div className="Footer-Icons-Container" data-aos="zoom-in">
           <div className="Icons-Footer">
             <a
-              href="https://www.linkedin.com/in/matheus-szarblewski/"
+              href="https://www.linkedin.com/in/matheuslrd/"
               target="_blank"
               rel="noreferrer"
             >

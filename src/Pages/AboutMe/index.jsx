@@ -38,7 +38,7 @@ function AboutMe() {
             <section className="Buttons-About-Me">
               <Button
                 className="btn-contact"
-                href="https://www.linkedin.com/in/matheus-szarblewski/"
+                href="https://www.linkedin.com/in/matheuslrd/"
                 target="_blank"
                 startIcon={<FaLinkedin size="1.2em" />}
               >
