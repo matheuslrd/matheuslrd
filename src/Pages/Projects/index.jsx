@@ -28,7 +28,7 @@ function Projects() {
         <h2
           className="Title-Projects"
           data-aos="zoom-in"
-          data-aos-delay="50"
+          data-aos-delay="0"
         >
           Projetos
         </h2>
@@ -43,7 +43,7 @@ function Projects() {
             rel="noreferrer"
             id="Services"
             data-aos="zoom-in"
-            data-aos-delay="10"
+            data-aos-delay="0"
           >
             Repositórios no GitHub
           </a>

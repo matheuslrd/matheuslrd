@@ -13,7 +13,11 @@ function AboutMe() {
     <StyledAboutMe>
       <section id="About-Me-Page">
 
-        <section className="Avatar-Matheus" data-aos="zoom-in">
+        <section
+          className="Avatar-Matheus"
+          data-aos="zoom-in"
+          data-aos-delay="0"
+        >
           <div className="Icons">
             <FaHtml5 size="4em" />
             <FaJsSquare size="4em" />
@@ -29,7 +33,7 @@ function AboutMe() {
           </div>
         </section>
 
-        <article className="About-Me-Container" data-aos="zoom-in">
+        <article className="About-Me-Container" data-aos="zoom-in" data-aos-delay="0">
           <div className="About-Me-Center">
             <section className="Abstract-About-Me">
               <AbstractAboutMe />
@@ -38,7 +42,7 @@ function AboutMe() {
             <section className="Buttons-About-Me">
               <Button
                 className="btn-contact"
-                href="https://www.linkedin.com/in/matheus-szarblewski/"
+                href="https://www.linkedin.com/in/matheuslrd/"
                 target="_blank"
                 startIcon={<FaLinkedin size="1.2em" />}
               >

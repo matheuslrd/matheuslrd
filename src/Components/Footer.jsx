@@ -10,10 +10,10 @@ function Footer() {
     <StyledFooter>
       <footer className="Footer">
 
-        <div className="Footer-Icons-Container" data-aos="zoom-in">
+        <div className="Footer-Icons-Container">
           <div className="Icons-Footer">
             <a
-              href="https://www.linkedin.com/in/matheus-szarblewski/"
+              href="https://www.linkedin.com/in/matheuslrd/"
               target="_blank"
               rel="noreferrer"
             >
@@ -36,7 +36,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="Icon-Back-To-Home" data-aos="zoom-in">
+        <div className="Icon-Back-To-Home">
           <a href="#Home-Page">
             <BiUpArrowAlt className="Back-To-Home" size="2.5em" />
           </a>

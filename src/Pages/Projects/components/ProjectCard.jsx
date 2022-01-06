@@ -15,8 +15,7 @@ function ProjectCard(props) {
     <div
       className="Project"
       data-aos={dataAos}
-      data-aos-delay="80"
-      data-aos-duration="600"
+      data-aos-delay="0"
     >
       <div className="project-info-container">
         <h3 className="Title-Project">
