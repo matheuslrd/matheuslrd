@@ -9,8 +9,8 @@
 
  <div>
   <a href="https://github.com/matheuslrd">
-  <img height="163em" src="https://github-readme-stats.vercel.app/api?username=matheuslrd&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&bg_color=0D1117"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuslrd&layout=compact&langs_count=7&theme=dracula&bg_color=0D1117"/>
+  <img height="163em" src="https://github-readme-stats.vercel.app/api?username=matheuslrd&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&bg_color=0D1117&hide_border"/>
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuslrd&layout=compact&langs_count=7&theme=dracula&bg_color=0D1117&hide_border"/>
 </div>
   
 <div style="display: inline_block">
