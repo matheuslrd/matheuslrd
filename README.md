@@ -1,7 +1,7 @@
 ### Olá, me chamo Matheus Laurindo 😄
 
 
-- 🔭 Atualmente trabalho em projetos pessoais e de estudos
+- 🔭 Atualmente trabalho na Compliance Station
 - 🌱 Estudando Desenvolvimento Web na Trybe
 - 📫 E-mail para contato: matheus104521@gmail.com
 - 😄 Pronomes: ele/dele
