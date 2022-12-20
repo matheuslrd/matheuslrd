@@ -2,7 +2,7 @@
 
 
 - 🔭 Atualmente trabalho na Compliance Station
-- 🌱 Estudando Desenvolvimento Web na Trybe
+- 🌱 Formado em Desenvolvimento Web na Trybe
 - 📫 E-mail para contato: matheus104521@gmail.com
 - 😄 Pronomes: ele/dele
 - :desktop_computer: Portfólio: https://matheuslrd.github.io/matheuslrd/
