@@ -9,7 +9,6 @@ import { MyContext } from '../Context/MyProvider';
 
 export default function HeaderLuxBar() {
   const { theme, setTheme } = useContext(MyContext);
-
   function changeTheme() {
     setTheme((prevTheme) => !prevTheme);
     localStorage.setItem('theme', !theme);
