@@ -57,7 +57,6 @@ export default function HeaderLuxBar() {
               className="Switch-Theme"
               handleDiameter={17}
               height={17}
-              // eslint-disable-next-line react/jsx-no-bind
               onChange={changeTheme}
               onColor="#888"
               width={45}
