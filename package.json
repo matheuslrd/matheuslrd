@@ -11,6 +11,9 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "@types/node": "^20.4.10",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
     "aos": "^2.3.4",
     "luxbar": "^0.3.2",
     "prop-types": "^15.7.2",
@@ -20,6 +23,7 @@
     "react-scripts": "4.0.3",
     "react-switch": "^6.0.0",
     "styled-components": "^5.3.3",
+    "typescript": "^5.1.6",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
