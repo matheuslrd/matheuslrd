@@ -1,12 +1,27 @@
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import moment from 'moment';
 
 function AbstractAboutMe() {
+  const birthday = '13/12/2000';
+
+  const calculateAge = (birthDate) => {
+    const birth = moment(birthDate, 'DD/MM/YYYY');
+    const age = moment().diff(birth, 'years');
+
+    return age;
+  };
+
   return (
     <>
       <h2 className="Title-About-Me">Quem Sou Eu?</h2>
       <br />
       <p className="About-Me-Matheus">
-        Meu nome é Matheus Laurindo, tenho 20 anos e moro em Gravataí/RS.
+        Meu nome é Matheus Laurindo, tenho
+        {' '}
+        {calculateAge(birthday)}
+        {' '}
+        anos e moro em Gravataí/RS.
         <br />
         Sou apaixonado por filmes, tecnologia e praticar exercícios físicos.
       </p>
