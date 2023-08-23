@@ -22,18 +22,19 @@ function App() {
   AOS.init();
 
   return (
-    // eslint-disable-next-line react/jsx-filename-extension
-    <ThemeProvider theme={theme ? darkTheme : lightTheme}>
-      <StyledApp>
-        <GlobalStyle />
-        <HomePage />
-        <AboutMe />
-        <Projects />
-        <Services />
-        <Skills />
-        <Footer />
-      </StyledApp>
-    </ThemeProvider>
+    <React.StrictMode>
+      <ThemeProvider theme={theme ? darkTheme : lightTheme}>
+        <StyledApp>
+          <GlobalStyle />
+          <HomePage />
+          <AboutMe />
+          <Projects />
+          <Services />
+          <Skills />
+          <Footer />
+        </StyledApp>
+      </ThemeProvider>
+    </React.StrictMode>
   );
 }
 
