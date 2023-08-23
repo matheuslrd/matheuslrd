@@ -11,8 +11,13 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^20.5.3",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
     "aos": "^2.3.4",
     "luxbar": "^0.3.2",
+    "moment": "^2.29.4",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -20,6 +25,7 @@
     "react-scripts": "4.0.3",
     "react-switch": "^6.0.0",
     "styled-components": "^5.3.3",
+    "typescript": "^5.1.6",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
