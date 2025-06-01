@@ -11,4 +11,7 @@
   <a href="https://instagram.com/matheuslrd_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:matheus104521@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/matheus-szarblewski/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  
+  ![matheuslrd_'s Streak](https://github-readme-streak-stats.herokuapp.com/?user=matheuslrd_&theme=vue-dark&hide_border=true)
+
 </div>
