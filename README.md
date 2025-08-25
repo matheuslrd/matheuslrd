@@ -1,7 +1,7 @@
 ### Olá, me chamo Matheus Laurindo 😄
 
 
-- 🔭 Atualmente trabalho na Compliance Station
+- 🔭 Desenvolvedor web Fullstack na @ComplianceStation
 - 🌱 Formado em Desenvolvimento Web na Trybe
 - 📫 E-mail para contato: matheus104521@gmail.com
 - 😄 Pronomes: ele/dele
