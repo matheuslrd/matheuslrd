@@ -7,7 +7,7 @@ import {
 } from 'react-icons/si';
 
 import AbstractSkills from './components/AbstractSkills';
-import SkillCard from './components/SkillCard';
+import SkillCard from './components/SkillCard.tsx';
 
 import StyledSkills from './styles/skills';
 
